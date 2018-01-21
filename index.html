@@ -1,293 +1,308 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
---><html>
-	<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Optic -- Automate Work,
+    Enforce Conventions</title>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112777347-1"></script>
+  <script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-<title>Optic - Automate Work, Share Knowledge, Enforce Convention</title>
-<meta name="description" content="">
+	  gtag('config', 'UA-112777347-1');
+  </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
-<link rel="manifest" href="/assets/icon/manifest.json">
-<link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="/assets/icon/favicon.ico">
-<meta name="msapplication-config" content="/assets/icon/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+  <link type="text/css" rel="stylesheet" href="./css/froala_blocks.css">
 
-<!-- CSS -->
-<link rel="stylesheet" href="/assets/css/main.css">
-<noscript><link rel="stylesheet" href="/assets/css/noscript.css"></noscript>
+  <style>
+    #navigator {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
 
+    #navigator .navbar-toggler-icon {
+    	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
 
+    @media (max-width: 720px) {
+      #navigator {
+        border-bottom: 1px solid #ccc;
+      }
+    }
 
-	</head>
-	<body class="is-loading">
+    #navigator a {
+      font-size: 14px;
+    }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    #navigator + section {
+      padding: 250px 0;
+    }
+  </style>
+</head>
 
-				<!-- Intro -->
-					<div id="intro">
+<body>
 
-            			<!--<img src="images/big_optic_logo.svg" />-->
+<header>
+  <div class="container">
+    <nav class="navbar navbar-expand-md no-gutters">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-						<h4 class="cd-headline clip">
-							<div>A Programming Assistant to automate your</div>
-							<div class="cd-words-wrapper">
-								<b class="is-visible">routine tasks</b>
-<b>boilerplate</b>
-<b>patterns</b>
-<b>best practices</b>
-							</div>
-						</h4>
+      <div class="col-4 col-md-2 text-right text-md-center order-lg-6">
+        <a href="https://www.froala.com">
+          <img src="/imgs/headerlogo.png" height="30" alt="image">
+        </a>
+      </div>
 
-						<img class="code-img" src="images/code.svg">
+      <div class="collapse navbar-collapse col-12 col-md-5 order-lg-1" id="navbarNav2">
+        <ul class="navbar-nav col-5">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/plans">Plans</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://medium.com/optic-blog">Blog</a>
+          </li>
+        </ul>
+      </div>
 
-						<!--<ul class="actions">-->
-							<!--<li><a href="#header" class="button special small scrolly">Learn More <span class="icon solo fa-arrow-down"></span></a></li>-->
-							<!--<li><a href="#" class="button special small">Get Started <span class="icon solo fa-user-plus"></span></a></li>-->
-						<!--</ul>-->
-					</div>
-
-				<!-- Header -->
-                <header id="header">
-    <a href="/" class="logo"><img src="/images/big_optic_logo.png" height="80"></a>
+      <ul class="navbar-nav justify-content-end col-sm-5 order-lg-12 d-none d-md-flex">
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/opticdev"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/opticdev"><i class="fa fa-github"></i></a>
+        </li>
+        <!--<li class="nav-item">-->
+          <!--<a class="nav-link" href="https://www.froala.com"><i class="fa fa-slack"></i></a>-->
+        <!--</li>-->
+      </ul>
+    </nav>
+  </div>
 </header>
 
-				<!-- Nav -->
-					<nav id="nav">
-
-            <ul class="links">
-  <li class=" active "><a href="/">Home</a></li>
-  <!--<li class=""><a href="/about/">About Project</a></li>-->
-  <li class=""><a href="/blog/">Blog</a></li>
-</ul>
-
-
-						<ul class="icons">
-              <li><a href="https://twitter.com/opticdev" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://medium.com/optic-blog" class="icon fa-medium" rel="nofollow"><span class="label">Medium</span></a></li>
-              <li><a href="https://github.com/opticdev" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<section><section>
-
-    <div class="row what-it-is">
-        <h2 style="width: 100%">Automate work, share knowledge, enforce convention</h2>
-        <h4 style="width: 100%">Open Source &amp; Made for You</h4>
+<section class="fdb-block fdb-viewport" style="background-image: url(./imgs/bg_0.svg)">
+  <div class="container align-items-center justify-content-center d-flex">
+    <div class="row align-items-center text-left">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+        <h1 style="color: #DFDFDF">Automate Work </br> Enforce Conventions</h1>
+        <p class="text-h3" style="color: #DFDFDF">Optic is a programming assistant for teams that aspire to move faster and ship a higher quality codebase.</p>
+        <p class="mt-5">
+          <a href="/plans" class="btn btn-shadow">Get Started</a>
+        </p>
+      </div>
+      <div class="col-12 col-md-8 col-lg-6 m-auto mr-lg-0 ml-lg-auto pt-5 pt-lg-0">
+        <img alt="image" class="img-fluid" width="100%" src="./imgs/docs-to-code.svg">
+      </div>
     </div>
-
-    <hr>
-
-</section></section>
-
-						<section><h2 class="main-content">What it Does</h2>
-
-<div class="row uniform">
-    <div class="5u 12u$(medium) image-box">
-        <span class="image"><img src="images/whatitdoes/write.svg" alt=""></span>
-    </div>
-    <div class="6u$ 12u$(medium)">
-        <div class="description-content">
-            <h3> 1. Write live docs for your project </h3>
-            <span>Document your best practices, patterns and other knowledge in markdown. </span>
-        </div>
-    </div>
-</div>
-
-
-<div class="row uniform">
-    <div class="5u 12u$(medium) image-box">
-        <span class="image"><img src="images/whatitdoes/import.svg" alt=""></span>
-    </div>
-    <div class="6u$ 12u$(medium)">
-        <div class="description-content">
-            <h3> 2. Import docs shared by other users  </h3>
-            <span>This includes knowledge from your teammates, a best practice shared by a developer you look up to, or docs for a library you want to use.</span>
-        </div>
-    </div>
-</div>
-
-<div class="row uniform">
-    <div class="5u 12u$(medium) image-box">
-        <span class="image"><img src="images/whatitdoes/ask.svg" alt=""></span>
-    </div>
-    <div class="6u$ 12u$(medium)">
-        <div class="description-content">
-            <h3> 3. Ask Optic for Help </h3>
-            <span>Optic uses the imported knowledge to generate/modify code.</span>
-        </div>
-    </div>
-</div>
-
-<div class="row uniform">
-    <div class="5u 12u$(medium) image-box">
-        <span class="image"><img src="images/whatitdoes/realcode.svg" alt=""></span>
-    </div>
-    <div class="6u$ 12u$(medium)">
-        <div class="description-content">
-            <h3> 4. Optic Answers with Real Code </h3>
-            <span>After approval, Optic pastes the solutions directly into your code</span>
-        </div>
-    </div>
-</div>
-
+  </div>
 </section>
 
-						<section><div class="row">
-    <div class="12u 12u$(small)">
-    <h2 class="main-content">Project Goals</h2>
-    <ol class="goals-list">
 
-        <li>
-<span class="highlight-container highlight-container-yellow"><span class="highlight">Organize the world’s programming knowledge</span></span>
-            and make it accessible through automation</li>
+<section class="fdb-block">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-6 col-xl-5">
+        <h1>Automate Your Best Practices</h1>
+        <p class="text-h3">Make it easier for your team members to write the correct code. Our programming assistant will add the proper boilerplate and glue code to any file on demand. </br> </br> Simply define your conventions using markdown and Optic will use them as a reference to generate and update code.</p>
 
-        <li>
-<span class="accent">Elevate</span>
-            developer focus to their
-            <span class="highlight-container highlight-container-green"><span class="highlight">
-                most important work</span></span>
-</li>
-
-        <li>
-<span class="accent">Empower</span>
-            teams to
-            <span class="highlight-container highlight-container-blue"><span class="highlight">share knowledge</span></span>
-            and enforce conventions</li>
-    </ol>
+        <div class="row pt-4 pt-xl-5">
+          <div class="col-12 col-md-5">
+            <h4><strong>Bring Your Own Tools</strong></h4>
+            <p>Optic works with your existing tools. Just install our plugin.</p>
+          </div>
+          <div class="col-12 col-md-5 m-auto pt-3 pt-md-0">
+            <h4><strong>Language Agnostic</strong></h4>
+            <p>Optic uses ML to learn your programming languages and DSLs</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 col-lg-6 m-auto mr-lg-0 ml-lg-auto pt-5 pt-lg-0">
+        <img alt="image" class="img-fluid" width="100%" src="./imgs/automate.svg">
+      </div>
     </div>
-</div></section>
-
-						<section><section class="features">
-
-    <h2 class="main-content">What's Different</h2>
+  </div>
+</section>
 
 
-    <div class="row">
-
-        <div class="4u 12u$(small)">
-            <img src="images/features/private.svg" alt="">
-            <h3>Private</h3>
-            <p class="features-subscript">Runs Locally. Code Never Leaves your Machine</p>
-        </div>
-
-        <div class="4u 12u$(small)">
-            <img src="images/features/full-control.svg" alt="">
-            <h3>Full Control</h3>
-            <p class="features-subscript">Write Code, Generate Code, Change Anything You Want</p>
-        </div>
-
-        <div class="4u 12u$(small)">
-            <img src="images/features/discrete.svg" alt="">
-            <h3>Discrete</h3>
-            <p class="features-subscript">Plugs into Existing Tools. Out of the Way Until Needed</p>
-        </div>
-
+<section class="fdb-block">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-8 col-lg-6 m-md-auto ml-lg-0 mr-lg-auto">
+        <img alt="image" class="img-fluid" width="100%" src="./imgs/enforce.svg">
+      </div>
+      <div class="col-12 col-lg-6 col-xl-5 ml-sm-auto pt-5 pt-lg-0">
+        <h1>Enforce Conventions</h1>
+        <p>Optic can check the entire codebase for deviations from the team's conventions. You can even add checks to each pull request to control what code gets checked in. It's like linting your code, but much more revealing.</p>
+      </div>
     </div>
+  </div>
+</section>
 
-    <div class="row">
 
-        <div class="4u 12u$(small)">
-            <img src="images/features/flexible.svg" alt="">
-            <h3>Flexible</h3>
-            <p class="features-subscript">Optic Respects your Current Workflow/Tools</p>
-        </div>
-
-        <div class="4u 12u$(small)">
-            <img src="images/features/zero.svg" alt="">
-            <h3>No Dependencies</h3>
-            <p class="features-subscript">Start or Stop Using Anytime</p>
-        </div>
-
-        <div class="4u 12u$(small)">
-            <img src="images/features/github.svg" alt="">
-            <h3>Open Source</h3>
-            <p class="features-subscript">The future of programming should be open</p>
-        </div>
-
+<section class="fdb-block">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-6 col-xl-5">
+        <h1>Connect all Your Projects</h1>
+        <p>Tired of manually updating code across multiple files/repos? Optic can read your code and help you keep everything in sync automatically. Rely on one source of truth to generate and maintain code across all your projects.</p>
+        <h4 style="font-style: italic"><strong>Example:</strong> Connect your backend and mobile app repos so every time you change the API Optic generates a pull request with the proper client side model and networking code updates.</h4>
+      </div>
+      <div class="col-12 col-md-8 col-lg-6 m-auto mr-lg-0 ml-lg-auto pt-5 pt-lg-0">
+        <img alt="image" class="img-fluid" width="100%" src="./imgs/connect.svg">
+      </div>
     </div>
+  </div>
+</section>
 
-</section></section>
-
-						<section><section>
-    <h1 class="main-content">Coming Soon</h1>
-    <p class="main-content">Optic is launching in a few weeks with support for Javascript, Node,
-        <br>
-        And a bunch of your favorite libraries</p>
-
-    <!-- Begin MailChimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <div class="row">
-        <div class="12u 12u$(small)">
-            <form action="https://opticdev.us17.list-manage.com/subscribe/post?u=8d0971c44031012e6c5292ccd&amp;id=37d217e491" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div style="width: 100%; text-align: center">
-                    <h4 for="mce-EMAIL main-content">Join our Mailing List for Updates &amp; Early Access</h4>
-
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required style="width: 50%; margin-left: 25%">
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8d0971c44031012e6c5292ccd_37d217e491" tabindex="-1" value=""></div>
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" style="margin-top: 20px">
-                </div>
-            </form>
+<section class="fdb-block">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-12">
+        <h1>What's Different?</h1>
+      </div>
+    </div>
+    <div class="row text-left mt-5">
+      <div class="col-12 col-md-4">
+        <div class="row">
+          <div class="col-3">
+            <img alt="image" class="img-fluid" src=./imgs/whatsdifferent/private.svg>
+          </div>
+          <div class="col-9">
+            <h3><strong>Private</strong></h3>
+            <p>Runs Locally. Code Never Leaves your Machine</p>
+          </div>
         </div>
+      </div>
+
+      <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+        <div class="row">
+          <div class="col-3">
+            <img alt="image" class="img-fluid" src=./imgs/whatsdifferent/full-control.svg>
+          </div>
+          <div class="col-9">
+            <h3><strong>Full Control</strong></h3>
+            <p>Write Code, Generate Code, Change Anything You Want</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+        <div class="row">
+          <div class="col-3">
+            <img alt="image" class="img-fluid" src=./imgs/whatsdifferent/forTeams.svg>
+          </div>
+          <div class="col-9">
+            <h3><strong>For Teams</strong></h3>
+            <p>Built with Your Team in Mind</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!--End mc_embed_signup-->
+    <div class="row text-left pt-3 pt-sm-4 pt-md-5">
+      <div class="col-12 col-md-4">
+        <div class="row">
+          <div class="col-3">
+            <img alt="image" class="img-fluid" src=./imgs/whatsdifferent/flexible.svg>
+          </div>
+          <div class="col-9">
+            <h3><strong>Flexible</strong></h3>
+            <p>Optic Respects your Current Workflow/Tools</p>
+          </div>
+        </div>
+      </div>
 
-</section></section>
+      <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+        <div class="row">
+          <div class="col-3">
+            <img alt="image" class="img-fluid" src=./imgs/whatsdifferent/zero.svg>
+          </div>
+          <div class="col-9">
+            <h3><strong>No Dependencies</strong></h3>
+            <p>Start or Stop Using Anytime</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+        <div class="row">
+          <div class="col-3">
+            <img alt="image" class="img-fluid" src=./imgs/whatsdifferent/github.svg>
+          </div>
+          <div class="col-9">
+            <h3><strong>Open Source</strong></h3>
+            <p>The Future of Programming should be Open</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fdb-block">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 text-center">
+        <h1> Can Optic Help Solve Your Problems? </h1>
+        <p class="text-h3">
+          Contact Us & Learn More About the Plans Available Here
+        </p>
+        <p class="mt-5 mt-sm-4">
+          <a class="btn" href="/plans">Get Started</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-						<!-- Footer -->
-							<footer>
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<section class="fdb-block bg-gray">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12  col-md-10 col-lg-8 col-xl-6 text-center">
+        <img alt="image" height="40" src="./imgs/img_round.svg">
+        <h1>Stay in The Loop</h1>
+        <p class="text-h3">Join our mailing list for updates on Optic and how our partners are using it.</p>
+        <p class="text-h5"><em>*We will never share your email & we promise to be respectful of your time.</em></p>
+        <div class="input-group mt-4 mb-4">
+          <form style="width: 100%;" action="https://opticdev.us17.list-manage.com/subscribe/post?u=8d0971c44031012e6c5292ccd&amp;id=37d217e491" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Enter your email address" style="position: absolute; width: 100%;">
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8d0971c44031012e6c5292ccd_37d217e491" tabindex="-1" value=""></div>
+          <div class="input-group-btn" style="margin-top: 40px">
+            <input type="submit" class="btn" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" style="margin: auto; margin-top: 10px">
+          </div>
+          </form>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
 
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-        <!-- Copyright -->
-<div id="copyright">
-  <ul><li>© Optic 2017</li></ul>
-</div>
-
-
-			</div>
-
-		<!-- Scripts -->
-		<!-- DYN -->
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/jquery.scrollex.min.js"></script>
-<script src="/assets/js/jquery.scrolly.min.js"></script>
-<script src="/assets/js/skel.min.js"></script>
-<script src="/assets/js/util.js"></script>
-<script src="/assets/js/main.js"></script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=default"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
-
-  gtag('config', 'default');
-</script>
+<footer class="fdb-block footer-small">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <p>© 2017 Optic</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
-	</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
 </html>

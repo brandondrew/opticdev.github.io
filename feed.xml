@@ -1,92 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-12-18T16:32:57-05:00</updated><id>/</id><title type="html">Optic</title><subtitle>Automate Work, Share Knowledge, Enforce Convention</subtitle><entry><title type="html">About the Optic Project</title><link href="/blog/about-optic/" rel="alternate" type="text/html" title="About the Optic Project" /><published>2017-12-18T00:00:00-05:00</published><updated>2017-12-18T00:00:00-05:00</updated><id>/blog/about-optic</id><content type="html" xml:base="/blog/about-optic/">&lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/blueprint.svg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-20T19:01:26-05:00</updated><id>/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2018/01/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-01-19T10:51:02-05:00</published><updated>2018-01-19T10:51:02-05:00</updated><id>/jekyll/update/2018/01/19/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2018/01/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;h2 id=&quot;our-why&quot;&gt;Our Why&lt;/h2&gt;
-&lt;p&gt;Pablo Picasso famously said that “everything you can imagine is real”. We have set out on a mission to make that literally true in software development. There are so many good ideas that never see the light of day because they are too challenging to make real — this hampers progress, and it’s everyone’s loss. A fusing of the best creative minds with innovative tools has always been a potent mixture for progress and its our job to create tools that help creators bring their imaginations to life.&lt;/p&gt;
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-&lt;h2 id=&quot;human-machine-collaboration&quot;&gt;Human Machine Collaboration&lt;/h2&gt;
-&lt;p&gt;Making programming more intuitive has been a long stated goal of many developers. In the past this problem was approached by building new libraries, languages, visual tools, and other abstractions for programmers to learn. Better abstractions certainly will continue to drive progress but so will making it easier to use and glue together the ones we already have. This is where we see a huge opportunity to apply automation to the discipline of programming.&lt;/p&gt;
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;p&gt;As it stands today, programming knowledge is diffused in a variety of places. There are tutorials, that example your co-worker emailed you, videos, wikis, Q&amp;amp;A sites, docs pages and troves of raw source code sitting on Github. The landscape in many ways resembles the internet as a whole before Google. This abundance of resources is great; however, it takes a human to find, interpret and act on this information and human time is scarce and expensive.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;After spending over 100 hours this year watching people code and realized that process, not coding, was where they spent most of their time and experienced their greatest frustrations.&lt;/p&gt;
-
-&lt;p&gt;The primary goal of our project is to organize the world’s programming knowledge and make it accessible through automation. While working towards this objective we tried to imagine how future developers might collaborate with computers while programming. Following dozens of user interviews, and many design sessions we began to focus on the following questions: &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What if there were a way to have programmers and machines collaborate on the same codebase without getting in each other’s way?&lt;/li&gt;
-  &lt;li&gt;What if you could ask documentation questions? What if it could do things for you?&lt;/li&gt;
-  &lt;li&gt;What if there you could import conventions and best practices the same way you import code? That could be in the form of knowledge from teammates, a developer you look up to, or the team behind a library you want to use.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We believe that when programmers should be able to elevate themselves to the most important problems and delegate repetitive/low-value work to a computer. In our experience this leads to happier developers, fewer bugs, faster cycle times, and higher quality. That all sounds great on paper, but figuring out how to build a technology and developer experience that achieves these ends without stymieing control or quality has been an open challenge for years. To say we have fully solved it would be dishonest. We’ve made enough progress to add value to end users, and with the support of our users and the community, we trust we will make more.&lt;/p&gt;
-
-&lt;p&gt;So what are you actually releasing? Simple, one product and one technology.&lt;/p&gt;
-
-&lt;h3 id=&quot;optic-agent-clippy-forcode&quot;&gt;Optic Agent —  clippy for code&lt;/h3&gt;
-&lt;p&gt;We built the Optic Agent to help programmers automate work, share knowledge and enforce conventions. Once installed, the Agent will monitor your code and function as your personal programming assistant. We believe you should not have to change all of your tools or abandon your battle hardened workflow to benefit from a little automation. So our key design focus while developing the agent was to make it discreet and impartial.&lt;/p&gt;
-
-&lt;p&gt;The Agent can make use of your team’s knowledge or you can import knowledge from individual developers and companies you trust. Once configured, this knowledge can be used by the Agent in several ways:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Perform searches — just start typing questions in your editor and Optic will pull up results from its knowledge-base. Once a result is selected and configured code gets generated into your project. ie “Process Credit Card”, “Send Text Message” or “Issue JWT Token”. We’re working with NLP experts to push the limits on what you can ask Optic to generate. Supporting compound questions like “Create a route that lists all of a user’s friends” is a stretch goal and one we’ll be able to move towards as our ecosystem grows larger. &lt;/li&gt;
-  &lt;li&gt;Make Suggestions — since the Agent knows a lot more about your code and how different pieces may fit together than any other IDE, it can suggest the next things you might want to do based on your context. For instance if you have a Mongoose Model selected, Optic will ask if you want it to generate CRUD routes &amp;amp; queries for that model and help your configure them.  &lt;/li&gt;
-  &lt;li&gt;Connect Code — A major headache for programmers is keeping their code synchronized across projects and teams. A simple example would be keeping your models synced between your server and client code. Optic can store implicit connections between different parts of your code (even across repos) and keep everything consistent with whatever you define as the ground truth.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Unlike other code generators Optic does not break if you change something it generates. We actually encourage you to make changes by hand whenever you need to and have designed the tool to work with them gracefully. Without getting too technical this works because there is no hidden information in an Optic Project; the code itself is always the ground truth. Change it as you see fit. Collaboration is not a one way street.&lt;/p&gt;
-
-&lt;p&gt;We’ll be releasing videos over the next few weeks leading up to release showcasing the Agent and how our early users are making use of it.&lt;/p&gt;
-
-&lt;h3 id=&quot;sourcegear-open-tools-for-automated-programming&quot;&gt;Sourcegear — open tools for automated programming&lt;/h3&gt;
-&lt;p&gt;For machines and humans to collaborate on code they both need to understand that code and have a standard way to interface with it. We have our brains, fingers and keyboard and those work quite well. Computers have a more difficult time with this because reading and generating code is a hard problem. The state of the art right now in code generation makes no accommodations for collaboration between machines and humans since every time code is generated it overwrites any changes a human might have made. &lt;/p&gt;
-
-&lt;p&gt;We’re leveling the playing field with Sourcegear: Optic’s toolchain for automated programming. Sourcegear greatly reduces the complexity in building automated programming tools by abstracting away syntax, formatting and structure. Without it the Optic Agent would not be possible. &lt;/p&gt;
-
-&lt;p&gt;Sourcegear exposes a RESTful API on your local machines and allows you to query for different entities within your source code. Want to find all the HTTP Routes in your project, run at &lt;code class=&quot;highlighter-rouge&quot;&gt;GET&lt;/code&gt; request. Want to insert something new, use a &lt;code class=&quot;highlighter-rouge&quot;&gt;POST&lt;/code&gt; request. Updating something? Use PUT. &lt;/p&gt;
-
-&lt;p&gt;The API exchanges JSON summaries of your code. The summary of an HTTP Route from the API might look like:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;url:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;‘/resource/create’,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;method:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;‘post’,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;parameters:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{in:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;‘query’,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;name:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;‘test’,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;rule:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;‘email’&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;]}&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If you change something in that model and &lt;code class=&quot;highlighter-rouge&quot;&gt;PUT&lt;/code&gt; it back to the API, it’ll update your code, wherever it is, to conform to the updated summary. This sort granular control over source code is a hard problem. It’s only been with the aid of machine learning techniques that we’ve been able to make our approach reliable enough that it isn’t even noticed.&lt;/p&gt;
-
-&lt;p&gt;Sourcegear’s abstraction dramatically reduces the complexity of any tool that seeks to write, read or otherwise manipulate source code. We hope this platform will usher in a new kind of programming tool where computers and humans work on code together and each masters the tasks that best suite them. &lt;/p&gt;
-
-&lt;p&gt;A full explanation of how Sourcegear works will be released along with its source code in January ’18.&lt;/p&gt;
-
-&lt;h2 id=&quot;open-source&quot;&gt;Open Source&lt;/h2&gt;
-&lt;p&gt;Optic is our attempt to bring these concepts to life. We are doing this not for ourselves, and not only for our users, but rather for the benefit of the community as a whole. If we are being serious about trying to influence the future of programming, and we are, we must also be serious about the way in which we do it. We do not believe one group should control the means of production for software and we think it’s much better to do our work out in the open for all to see, comment on, contribute to and use to solve real world problems.&lt;/p&gt;
-
-&lt;p&gt;If you’re interested in collaborating or contributing please email hello@opticdev.com&lt;/p&gt;
-
-&lt;!-- Begin MailChimp Signup Form --&gt;
-&lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/slim-10_7.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-
-&lt;style type=&quot;text/css&quot;&gt;
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-&lt;/style&gt;
-
-&lt;div class=&quot;row&quot; style=&quot;padding-top: 80px&quot;&gt;
-    &lt;div class=&quot;12u 12u$(small)&quot;&gt;
-        &lt;form action=&quot;https://opticdev.us17.list-manage.com/subscribe/post?u=8d0971c44031012e6c5292ccd&amp;amp;id=37d217e491&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate=&quot;&quot;&gt;
-            &lt;div style=&quot;width: 100%; text-align: center&quot;&gt;
-                &lt;h4 for=&quot;mce-EMAIL main-content&quot;&gt;Join our Mailing List for Updates &amp;amp; Early Access&lt;/h4&gt;
-
-                    &lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;email&quot; id=&quot;mce-EMAIL&quot; placeholder=&quot;email address&quot; required=&quot;&quot; style=&quot;width: 50%; margin-left: 25%&quot; /&gt;
-                    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
-                    &lt;div style=&quot;position: absolute; left: -5000px;&quot; aria-hidden=&quot;true&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_8d0971c44031012e6c5292ccd_37d217e491&quot; tabindex=&quot;-1&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
-                    &lt;input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; style=&quot;margin-top: 20px&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/form&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!--End mc_embed_signup--&gt;</content><summary type="html">A brief recount of our inspirations for building Optic and an introduction to how it works.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/blog/about-optic.png" /></entry><entry><title type="html">Optic Update #1</title><link href="/blog/optic-update-1/" rel="alternate" type="text/html" title="Optic Update #1" /><published>2017-12-16T00:00:00-05:00</published><updated>2017-12-16T00:00:00-05:00</updated><id>/blog/optic-update-1</id><content type="html" xml:base="/blog/optic-update-1/">&lt;p&gt;Today we launched the first version of our website here at opticdev.com. Thanks for your visit! We’re not quite done yet; our docs, video gallery and team pages are forthcoming. For now we really just wanted to get something up for all of you as we create &amp;amp; iterate the content.&lt;/p&gt;
-
-&lt;p&gt;The biggest question you’re probably left with after perusing our site is our timeline. Right now we’re planning to release most of our open source research in January of 2018 through a series of blog posts, public repos, and documentation. While that’s going on, the first couple users will get private access to the Optic Agent to start testing it in the real world. Our intent is to release the Agent publicly within a month or two of that testing (bearing any unforeseen issues). We’ll be releasing periodic updates on this blog throughout that entire process in case you choose to follow us closely during that time.&lt;/p&gt;
-
-&lt;p&gt;Our small team has been pretty heads down building our MVP over the last few months. It’s been a lot of R&amp;amp;D and our rationale for releasing our research before the product is that we really want to get the biases of the R&amp;amp;D phase out of our system. The best way we can think to do that is to put it all down on paper and move along. Yes, we’re excited about what we’ve built and the leanings it incorporates from our past companies and experiences, but we’re more anxious to work closely with &lt;strong&gt;real&lt;/strong&gt; users to solve their &lt;strong&gt;real&lt;/strong&gt; problems. That’s the sort of team we are. If you work with us in the early days we’ll be there for you, side-by-side, solving real issues that face you and your teams. If you pull up a chair for us in your office, one of us will come sit in it.&lt;/p&gt;
-
-&lt;p&gt;Happy [insert holiday here]! We look forward to getting to know all of you soon.&lt;/p&gt;</content><summary type="html">Launch plans, research releases, and other musings</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/blog/startingblock.jpg" /></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
