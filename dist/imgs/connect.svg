@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="263px" height="132px" viewBox="0 0 263 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>connect</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="connect">
+            <path d="M55,90.6841686 L116.130859,64" id="Path-11" stroke="#979797"></path>
+            <path d="M216.942851,65 L170.319938,91.4752449" id="Path-13" stroke="#979797"></path>
+            <polyline id="Path-15" stroke="#979797" points="109 30 177.31282 66 137.023985 56.8724238"></polyline>
+            <path d="M183.280909,60 L214.6007,60" id="Path-16" stroke="#979797"></path>
+            <path d="M208.079928,90.3395689 L179.02663,64.7167951" id="Path-18" stroke="#979797"></path>
+            <path d="M178.658465,32 L133.205289,54.0534024" id="Path-14" stroke="#979797"></path>
+            <polygon id="Path-10" stroke="#979797" points="50 43 113.405943 56.5043042 50 43 94.4142005 102.666874 151.749915 95.3729881"></polygon>
+            <path d="M186,32 L215.453923,57.3163146" id="Path-12" stroke="#979797"></path>
+            <path d="M150,29 L159.857196,85.395933" id="Path-19" stroke="#979797"></path>
+            <path d="M205.389836,95 L169.516849,95" id="Path-17" stroke="#979797"></path>
+            <circle id="Oval-4" fill="#7ED321" cx="49" cy="92" r="6"></circle>
+            <circle id="Oval-4" fill="#F5A623" cx="93" cy="108" r="6"></circle>
+            <circle id="Oval-4" fill="#F56723" cx="182" cy="28" r="6"></circle>
+            <circle id="Oval-4" fill="#36A189" cx="221" cy="61" r="6"></circle>
+            <circle id="Oval-4" fill="#318FB6" cx="125.5" cy="58.5" r="11.5"></circle>
+            <circle id="Oval-4" fill="#477515" cx="176.5" cy="61.5" r="11.5"></circle>
+            <circle id="Oval-4" fill="#FF6174" cx="43" cy="40" r="6"></circle>
+            <circle id="Oval-4" fill="#40237E" cx="150" cy="24" r="6"></circle>
+            <circle id="Oval-4" fill="#A761FF" cx="105" cy="26" r="6"></circle>
+            <circle id="Oval-4" fill="#C1B626" cx="211" cy="96" r="6"></circle>
+            <circle id="Oval-4" fill="#565656" cx="163.5" cy="93.5" r="11.5"></circle>
+        </g>
+    </g>
+</svg>

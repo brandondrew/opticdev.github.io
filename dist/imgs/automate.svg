@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="234px" height="227px" viewBox="0 0 234 227" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>automate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="7.2" y="10.8" width="140.4" height="147.6" rx="7.8"></rect>
+        <path d="M10.1496647,1.93138841 C12.2319001,2.25151782 14.0615456,3.44946488 15.1473441,5.20358256 C16.2331427,6.95770024 16.4638319,9.08824333 15.7774721,11.0231641 L17.4633496,11.5866475 C18.3212993,9.16799647 18.0329377,6.50481761 16.6756896,4.31217051 C15.3184415,2.1195234 13.0313846,0.622089583 10.4285903,0.221927822 L10.1496647,1.93138841 Z" id="path-2"></path>
+        <filter x="-91.0%" y="-53.7%" width="282.1%" height="224.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.878623188 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M14.5766259,13.1260642 C13.2498985,14.7164253 11.2663038,15.6555385 9.15843414,15.6912533 C7.05056448,15.7269681 5.03441416,14.8556248 3.65131658,13.3111779 L2.30565516,14.4466647 C4.03452713,16.3772234 6.55471503,17.4664024 9.18955211,17.4217589 C11.8243892,17.3771154 14.3038825,16.2032239 15.9622918,14.2152726 L14.5766259,13.1260642 Z" id="path-4"></path>
+        <filter x="-52.0%" y="-142.0%" width="204.0%" height="430.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="0.6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.878623188 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0.711004688,11.8704919 L2.3755962,11.2502397 C1.62008821,9.33974921 1.77403734,7.20268898 2.7961085,5.41285648 C3.81817966,3.62302397 5.60364076,2.36382414 7.67309811,1.97335027 L7.33288207,0.274380143 C4.74606038,0.76247248 2.51423401,2.33647228 1.23664506,4.5737629 C-0.040943885,6.81105353 -0.233380309,9.72605418 0.711004688,12.1141672" id="path-6"></path>
+        <filter x="-94.0%" y="-51.5%" width="288.0%" height="219.9%" filterUnits="objectBoundingBox" id="filter-7">
+            <feMorphology radius="0.6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.878623188 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-8" cx="9.03396226" cy="8.76923077" rx="1.33726415" ry="1.29807692"></ellipse>
+        <filter x="-130.9%" y="-96.3%" width="361.7%" height="369.6%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.850430254 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="automate">
+            <g id="Group" transform="translate(13.000000, 18.000000)">
+                <g id="writing" fill-rule="nonzero">
+                    <polygon id="Shape" stroke="#D8D8D8" fill="#FFFFFF" points="0.406052663 0.146659122 29.6418444 0.146659122 29.6418444 33.7295176 23.5990542 39.8999082 0.406052663 39.8999082"></polygon>
+                    <polygon id="Shape" fill="#FFDB88" points="23.6864053 33.8264951 29.6418444 33.8264951 23.6864053 39.8999082"></polygon>
+                    <path d="M4.19587752,12.935846 L25.310616,12.935846 L25.310616,13.2559067 L4.19587752,13.2559067 L4.19587752,12.935846 Z M4.19587752,10.8428864 L25.310616,10.8428864 L25.310616,11.1629471 L4.19587752,11.1629471 L4.19587752,10.8428864 Z M4.19587752,8.75003374 L25.310616,8.75003374 L25.310616,9.07009444 L4.19587752,9.07009444 L4.19587752,8.75003374 Z M4.19587752,6.65707414 L25.310616,6.65707414 L25.310616,6.97713484 L4.19587752,6.97713484 L4.19587752,6.65707414 Z" id="Shape" fill="#C8CACC"></path>
+                    <path d="M4.19587752,30.3981701 L25.310616,30.3981701 L25.310616,30.7182308 L4.19587752,30.7182308 L4.19587752,30.3981701 Z M4.19587752,28.3052105 L25.310616,28.3052105 L25.310616,28.6252712 L4.19587752,28.6252712 L4.19587752,28.3052105 Z" id="Shape" fill="#C8CACC"></path>
+                </g>
+                <rect id="Rectangle-6" fill="#E9E9E9" x="5" y="15" width="21" height="11"></rect>
+                <g id="white" transform="translate(6.000000, 15.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-2" x="0" y="0" width="2" height="2"></rect>
+                </g>
+                <g id="white" transform="translate(15.000000, 15.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-2" x="0" y="0" width="1" height="2"></rect>
+                </g>
+                <g id="white" transform="translate(14.000000, 22.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-2" x="0" y="0" width="1" height="2"></rect>
+                </g>
+                <g id="blue" transform="translate(8.000000, 15.000000)" fill="#318FB6">
+                    <rect id="Rectangle-3" x="0" y="0" width="6" height="2"></rect>
+                </g>
+                <g id="blue" transform="translate(10.000000, 18.000000)" fill="#318FB6">
+                    <rect id="Rectangle-3" x="0" y="0" width="8" height="2"></rect>
+                </g>
+                <g id="green" transform="translate(6.000000, 22.000000)" fill="#9EDE76">
+                    <rect id="Rectangle-2" x="0" y="0" width="8" height="2"></rect>
+                </g>
+                <g id="orange" transform="translate(6.000000, 18.000000)" fill="#E1BE7E">
+                    <rect id="Rectangle-3" x="0" y="0" width="4" height="2"></rect>
+                </g>
+                <g id="orange" transform="translate(20.000000, 18.000000)" fill="#E1BE7E">
+                    <rect id="Rectangle-3" x="0" y="0" width="5" height="2"></rect>
+                </g>
+                <g id="orange" transform="translate(6.000000, 25.000000)" fill="#E1BE7E">
+                    <rect id="Rectangle-3" x="0" y="0" width="4" height="2"></rect>
+                </g>
+            </g>
+            <g id="Group" transform="translate(13.000000, 88.000000)">
+                <g id="writing" fill-rule="nonzero">
+                    <polygon id="Shape" stroke="#D8D8D8" fill="#FFFFFF" points="0.406052663 0.146659122 29.6418444 0.146659122 29.6418444 33.7295176 23.5990542 39.8999082 0.406052663 39.8999082"></polygon>
+                    <polygon id="Shape" fill="#FFDB88" points="23.6864053 33.8264951 29.6418444 33.8264951 23.6864053 39.8999082"></polygon>
+                    <path d="M4.19587752,12.935846 L25.310616,12.935846 L25.310616,13.2559067 L4.19587752,13.2559067 L4.19587752,12.935846 Z M4.19587752,10.8428864 L25.310616,10.8428864 L25.310616,11.1629471 L4.19587752,11.1629471 L4.19587752,10.8428864 Z M4.19587752,8.75003374 L25.310616,8.75003374 L25.310616,9.07009444 L4.19587752,9.07009444 L4.19587752,8.75003374 Z M4.19587752,6.65707414 L25.310616,6.65707414 L25.310616,6.97713484 L4.19587752,6.97713484 L4.19587752,6.65707414 Z" id="Shape" fill="#C8CACC"></path>
+                    <path d="M4.19587752,30.3981701 L25.310616,30.3981701 L25.310616,30.7182308 L4.19587752,30.7182308 L4.19587752,30.3981701 Z M4.19587752,28.3052105 L25.310616,28.3052105 L25.310616,28.6252712 L4.19587752,28.6252712 L4.19587752,28.3052105 Z" id="Shape" fill="#C8CACC"></path>
+                </g>
+                <rect id="Rectangle-6" fill="#E9E9E9" x="5" y="15" width="21" height="11"></rect>
+                <g id="white" transform="translate(6.000000, 15.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-2" x="0" y="0" width="2" height="2"></rect>
+                </g>
+                <g id="white" transform="translate(15.000000, 15.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-2" x="0" y="0" width="1" height="2"></rect>
+                </g>
+                <g id="white" transform="translate(14.000000, 22.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-2" x="0" y="0" width="1" height="2"></rect>
+                </g>
+                <g id="blue" transform="translate(8.000000, 15.000000)" fill="#318FB6">
+                    <rect id="Rectangle-3" x="0" y="0" width="6" height="2"></rect>
+                </g>
+                <g id="blue" transform="translate(10.000000, 18.000000)" fill="#318FB6">
+                    <rect id="Rectangle-3" x="0" y="0" width="8" height="2"></rect>
+                </g>
+                <g id="green" transform="translate(6.000000, 22.000000)" fill="#9EDE76">
+                    <rect id="Rectangle-2" x="0" y="0" width="8" height="2"></rect>
+                </g>
+                <g id="orange" transform="translate(6.000000, 18.000000)" fill="#E1BE7E">
+                    <rect id="Rectangle-3" x="0" y="0" width="4" height="2"></rect>
+                </g>
+                <g id="orange" transform="translate(20.000000, 18.000000)" fill="#E1BE7E">
+                    <rect id="Rectangle-3" x="0" y="0" width="5" height="2"></rect>
+                </g>
+                <g id="orange" transform="translate(6.000000, 25.000000)" fill="#E1BE7E">
+                    <rect id="Rectangle-3" x="0" y="0" width="4" height="2"></rect>
+                </g>
+            </g>
+            <g id="Group" transform="translate(13.000000, 158.000000)">
+                <g id="writing" fill-rule="nonzero">
+                    <polygon id="Shape" stroke="#D8D8D8" fill="#FFFFFF" points="0.406052663 0.146659122 29.6418444 0.146659122 29.6418444 33.7295176 23.5990542 39.8999082 0.406052663 39.8999082"></polygon>
+                    <polygon id="Shape" fill="#FFDB88" points="23.6864053 33.8264951 29.6418444 33.8264951 23.6864053 39.8999082"></polygon>
+                    <path d="M4.19587752,12.935846 L25.310616,12.935846 L25.310616,13.2559067 L4.19587752,13.2559067 L4.19587752,12.935846 Z M4.19587752,10.8428864 L25.310616,10.8428864 L25.310616,11.1629471 L4.19587752,11.1629471 L4.19587752,10.8428864 Z M4.19587752,8.75003374 L25.310616,8.75003374 L25.310616,9.07009444 L4.19587752,9.07009444 L4.19587752,8.75003374 Z M4.19587752,6.65707414 L25.310616,6.65707414 L25.310616,6.97713484 L4.19587752,6.97713484 L4.19587752,6.65707414 Z" id="Shape" fill="#C8CACC"></path>
+                    <path d="M4.19587752,30.3981701 L25.310616,30.3981701 L25.310616,30.7182308 L4.19587752,30.7182308 L4.19587752,30.3981701 Z M4.19587752,28.3052105 L25.310616,28.3052105 L25.310616,28.6252712 L4.19587752,28.6252712 L4.19587752,28.3052105 Z" id="Shape" fill="#C8CACC"></path>
+                </g>
+                <rect id="Rectangle-6" fill="#E9E9E9" x="5" y="15" width="21" height="11"></rect>
+                <g id="white" transform="translate(6.000000, 15.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-2" x="0" y="0" width="2" height="2"></rect>
+                </g>
+                <g id="white" transform="translate(15.000000, 15.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-2" x="0" y="0" width="1" height="2"></rect>
+                </g>
+                <g id="white" transform="translate(14.000000, 22.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-2" x="0" y="0" width="1" height="2"></rect>
+                </g>
+                <g id="blue" transform="translate(8.000000, 15.000000)" fill="#318FB6">
+                    <rect id="Rectangle-3" x="0" y="0" width="6" height="2"></rect>
+                </g>
+                <g id="blue" transform="translate(10.000000, 18.000000)" fill="#318FB6">
+                    <rect id="Rectangle-3" x="0" y="0" width="8" height="2"></rect>
+                </g>
+                <g id="green" transform="translate(6.000000, 22.000000)" fill="#9EDE76">
+                    <rect id="Rectangle-2" x="0" y="0" width="8" height="2"></rect>
+                </g>
+                <g id="orange" transform="translate(6.000000, 18.000000)" fill="#E1BE7E">
+                    <rect id="Rectangle-3" x="0" y="0" width="4" height="2"></rect>
+                </g>
+                <g id="orange" transform="translate(20.000000, 18.000000)" fill="#E1BE7E">
+                    <rect id="Rectangle-3" x="0" y="0" width="5" height="2"></rect>
+                </g>
+                <g id="orange" transform="translate(6.000000, 25.000000)" fill="#E1BE7E">
+                    <rect id="Rectangle-3" x="0" y="0" width="4" height="2"></rect>
+                </g>
+            </g>
+            <g id="Artboard" transform="translate(64.000000, 24.000000)">
+                <g id="Rectangle">
+                    <use fill="#2D3D4D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#808080" stroke-width="1.2" x="7.8" y="11.4" width="139.2" height="146.4" rx="7.8"></rect>
+                </g>
+                <g id="white" transform="translate(17.400000, 21.600000)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="5" height="3.77142857"></rect>
+                </g>
+                <g id="white" transform="translate(45.000000, 33.600000)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="5" height="3.77142857"></rect>
+                </g>
+                <g id="white" transform="translate(63.000000, 21.600000)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="12" height="3.77142857"></rect>
+                </g>
+                <g id="white" transform="translate(17.400000, 45.600000)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="16" height="3.77142857"></rect>
+                </g>
+                <g id="white" transform="translate(35.400000, 45.600000)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="41" height="3.77142857"></rect>
+                </g>
+                <g id="blue" transform="translate(24.600000, 21.600000)" fill="#318FB6" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="36" height="3.77142857"></rect>
+                </g>
+                <g id="blue" transform="translate(52.200000, 33.600000)" fill="#318FB6" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="38" height="3.77142857"></rect>
+                </g>
+                <g id="blue" transform="translate(17.400000, 57.600000)" fill="#318FB6" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="29" height="3.77142857"></rect>
+                </g>
+                <g id="orange" transform="translate(17.400000, 33.600000)" fill="#E1BE7E" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="25" height="3.77142857"></rect>
+                </g>
+                <g id="orange" transform="translate(94.200000, 33.600000)" fill="#E1BE7E" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="25" height="3.77142857"></rect>
+                </g>
+                <g id="blue" transform="translate(17.400000, 112.800000)" fill="#318FB6" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="18" height="3.77142857"></rect>
+                </g>
+                <g id="orange" transform="translate(61.200000, 112.800000)" fill="#E1BE7E" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="14" height="3.77142857"></rect>
+                </g>
+                <g id="orange" transform="translate(48.600000, 57.600000)" fill="#E1BE7E" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="13" height="3.77142857"></rect>
+                </g>
+                <g id="green" transform="translate(63.000000, 57.600000)" fill="#9EDE76" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="21" height="3.77142857"></rect>
+                </g>
+                <g id="green" transform="translate(37.800000, 112.800000)" fill="#9EDE76" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="21" height="3.77142857"></rect>
+                </g>
+                <g id="white" transform="translate(17.400000, 69.000000)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="12" height="3.77142857"></rect>
+                </g>
+                <g id="white" transform="translate(17.400000, 79.800000)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="26" height="3.77142857"></rect>
+                </g>
+                <g id="white" transform="translate(17.400000, 91.200000)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="19" height="3.77142857"></rect>
+                </g>
+                <g id="white" transform="translate(17.400000, 102.000000)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-2" x="0" y="0" width="26" height="3.77142857"></rect>
+                </g>
+                <g id="Dot" transform="translate(117.000000, 129.600000)" fill-rule="evenodd" stroke-width="1">
+                    <g transform="translate(1.426415, 0.692308)">
+                        <g id="Shape" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use stroke="#F5F5F5" stroke-width="1.2" fill-opacity="0.865743886" fill="#404040" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Shape" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use stroke="#F5F5F5" stroke-width="1.2" fill-opacity="0.865743886" fill="#404040" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                        <g id="Shape" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <use stroke="#F5F5F5" stroke-width="1.2" fill-opacity="0.865743886" fill="#404040" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        </g>
+                        <g id="Oval" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                            <use fill-opacity="0.505774457" fill="#E8E8E8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
