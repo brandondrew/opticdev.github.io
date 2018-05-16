@@ -47,54 +47,7 @@
 
 <body>
 
-<header>
-  <div class="container">
-    <nav class="navbar navbar-expand-md no-gutters">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="col-4 col-md-2 text-right text-md-center order-lg-6">
-        <a href="http://opticdev.com">
-          <img src="/imgs/headerlogo.png" height="50" alt="image">
-        </a>
-      </div>
-
-      <div class="collapse navbar-collapse col-12 col-md-5 order-lg-1" id="navbarNav2">
-        <ul class="navbar-nav col-5">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/teams">Teams</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://useoptic.com/docs">Docs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://medium.com/optic-blog">Blog</a>
-          </li>
-        </ul>
-      </div>
-
-      <ul class="navbar-nav justify-content-end col-sm-5 order-lg-12 d-none d-md-flex">
-
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/opticdev"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/opticdev"><i class="fa fa-github"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link inverse" href="/get-optic">Get Optic</a>
-        </li>
-        <!--<li class="nav-item">-->
-          <!--<a class="nav-link" href="https://www.froala.com"><i class="fa fa-slack"></i></a>-->
-        <!--</li>-->
-      </ul>
-    </nav>
-  </div>
-</header>
+{% include header.html %}
 
 <section class="fdb-block" style="background-image: url(../imgs/bg_0.svg); color: #DFDFDF">
     <div class="container">
@@ -103,12 +56,12 @@
                 <img alt="image" class="img-fluid" width="150" src="../imgs/optic-logo.jpg">
             </div>
             <div class="col-12 col-sm-6 m-auto pt-4 pt-sm-0">
-                <h2><strong>Optic [1.0.0-rc1]</strong></h2>
-                <p class="text-h4"><strong>Published: May 15th, 2018</strong></p>
-                <p class="text-h3">Supports macOS >= 10.10 (Yosemite)</p>
+                <h2><strong>{{ site.data.getstarted.name }} {{ site.data.getstarted.release }}</strong></h2>
+                <p class="text-h4"><strong>Published: {{site.data.getstarted.date}}</strong></p>
+                <p class="text-h3">{{site.data.getstarted.description}}</p>
             </div>
             <div class="col-12 col-sm-3 text-center pt-4 pt-sm-0">
-                <p><a class="btn" target="_blank" href="https://github.com/opticdev/macos-release-tracker/releases/download/1.0.0-RC1/OpticRC1.dmg">Download</a></p>
+                <p><a class="btn" target="_blank" href="{{site.data.getstarted.downloadLink}}">{{site.data.getstarted.downloadButton}}</a></p>
                 <p class="text-h5"><em>.dmg installer</em></p>
             </div>
         </div>
@@ -121,7 +74,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-left">
-                <h1>Download Plugin for Your IDE</h1>
+                <h1>{{site.data.getstarted.pickEditor}}</h1>
             </div>
         </div>
 
@@ -129,24 +82,24 @@
 
             <div class="col-12 col-md-8 m-auto col-lg-4">
                 <div class="fdb-box fdb-touch">
-                    <img alt="image" class="fdb-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Atom_1.0_icon.png/240px-Atom_1.0_icon.png">
-                    <h2>Atom</h2>
-                    <a href="https://atom.io/packages/optic" target="_blank" class="btn btn-shadow btn-empty">Get Plugin</a>
+                    <img alt="image" class="fdb-icon" src="{{site.data.getstarted.atom.image}}">
+                    <h2>{{site.data.getstarted.atom.name}}</h2>
+                    <a href="{{site.data.getstarted.atom.link}}" target="_blank" class="btn btn-shadow btn-empty">Get Plugin</a>
                 </div>
             </div>
 
             <div class="col-12 col-md-8 m-auto col-lg-4 pt-5 pt-lg-0" >
                 <div class="fdb-box fdb-touch" style="border-top-color: #586480">
-                    <img alt="image" height="60" class="fdb-icon" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Visual_Studio_Code_1.18_icon.svg">
-                    <h2>VS Code</h2>
+                    <img alt="image" height="60" class="fdb-icon" src="{{site.data.getstarted.vscode.image}}">
+                    <h2>{{site.data.getstarted.vscode.name}}</h2>
                     <h4>Coming Soon</h4>
                 </div>
             </div>
 
             <div class="col-12 col-md-8 m-auto col-lg-4 pt-5 pt-lg-0" >
                 <div class="fdb-box fdb-touch" style="border-top-color: #586480">
-                    <img alt="image" height="60" class="fdb-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/JetBrains_Logo_2016.svg/512px-JetBrains_Logo_2016.svg.png">
-                    <h2>JetBrains</h2>
+                    <img alt="image" height="60" class="fdb-icon" src="{{site.data.getstarted.jetbrains.image}}">
+                    <h2>{{site.data.getstarted.jetbrains.name}}</h2>
                     <h4>Coming Soon</h4>
                 </div>
             </div>
@@ -166,7 +119,7 @@
             </div>
 
             <div class="col-12 col-lg-6 pt-5 pt-lg-0">
-                <p class="text-h3 text-left">Curious about how Optic works? Want to teach it something new? <a href='https://opticdev.com/docs' target='_blank'>Check out our docs here</a> </p>
+                <p class="text-h3 text-left">Curious about how Optic works? Want to teach it something new? <a href='https://useoptic.com/docs' target='_blank'>Check out our docs here</a> </p>
             </div>
         </div>
     </div>
@@ -177,11 +130,11 @@
     <div class="container">
         <div class="row">
             <div class="col text-left">
-                <h2>Development Status</h2>
+                <h2>{{site.data.getstarted.devStatus.header}}</h2>
 
-                <p>The <a href='https://github.com/opticdev/optic' target='_blank'>core engine</a> is stable and open sourced. There are a few key features still under development before 1.0 will be released: <ul> <li>OPM (Optic Package Manager) registry will go live. </li> <li>Support for More Powerful Transformations</li> <li>Ability to Generate Directory Structures</li> <li> Capability for Optic to Manage Project Dependencies </li> <li> Enhanced tooling to support Optic Markdown Development </li> <li> Support for Additional IDEs </li> </ul> </p>
+                <p>{{site.data.getstarted.devStatus.paragraph1}}</p>
 
-                <p>The major limitation most users will run into when trying out Optic during the Beta is a lack of useful content within the system. We're working hard to bootstrap Optic knowledge for the most popular libraries in the Node.js ecosystem but it is going to be a few weeks before this task is finished. If you're interested in teaching Optic to do some interesting things, check out <a href='https://opticdev.com/docs' target='_blank'>our docs</a>.</p>
+                <p>{{site.data.getstarted.devStatus.paragraph2}}</p>
             </div>
         </div>
     </div>
@@ -210,8 +163,8 @@
         <div class="row justify-content-center">
             <div class="col-12  col-md-10 col-lg-8 col-xl-6 text-center">
                 <img alt="image" height="40" src="../imgs/img_round.svg">
-                <h1>Stay in The Loop</h1>
-                <p class="text-h3">Join our mailing list for updates on Optic and how our partners are using it.</p>
+                <h1>{{ site.data.maincopy.subscribe.header }}</h1>
+                <p class="text-h3">{{ site.data.maincopy.subscribe.message }}</p>
                 <p class="text-h5"><em>*We will never share your email & we promise to be respectful of your time.</em></p>
                 <div class="input-group mt-4 mb-4">
                     <form style="width: 100%;" action="https://opticdev.us17.list-manage.com/subscribe/post?u=8d0971c44031012e6c5292ccd&amp;id=37d217e491" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -228,15 +181,7 @@
     </div>
 </section>
 
-<footer class="fdb-block footer-small">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col">
-        <p>© 2017 Optic</p>
-      </div>
-    </div>
-  </div>
-</footer>
+{% include footer.html %}
 
 
 </body>

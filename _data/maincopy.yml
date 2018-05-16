@@ -1,0 +1,23 @@
+banner: "The AI Pair-Programmer You Deserve"
+subtext: "Get backup discovering, writing and maintaining the code you need"
+
+highlight:
+  header: "Highlight Code, Receive Suggestions"
+  subtext: "Optic figures out what code you might want to write next and offers to generate it."
+
+ask:
+  header: "Ask Questions from your IDE"
+  subtext: "Optic uses its understanding of your code, context and the knowledge you’ve imported to answer your query with real code."
+
+connect:
+  header: "Connect Projects"
+  subtext: "Most of the code in any project is related and developers are tired of manually updating code across multiple files. Optic helps maintain those relationships by reading code making pull requests. Rely on one source of truth to generate and maintain code across all your projects."
+
+
+callToAction:
+  header: "Can Optic Help Solve Your Problems?"
+  subtext: "Contact Us to Join the Beta"
+
+subscribe:
+  header: "Stay in The Loop"
+  message: "Join our mailing list for updates on Optic and how our partners are using it."

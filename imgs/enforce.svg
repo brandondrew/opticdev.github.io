@@ -75,7 +75,7 @@
                 <tspan x="41" y="66" fill="#9F9F9F">“MainPresentationView” does not </tspan>
                 <tspan x="41" y="77" fill="#9F9F9F">follow our conventions for Redux.</tspan>
                 <tspan x="41" y="88" fill="#9F9F9F">Here’s a link to help you fix it: </tspan>
-                <tspan x="41" y="99" fill="#4A90E2">opticdev.com/mycompany/docs/React+</tspan>
+                <tspan x="41" y="99" fill="#4A90E2">useoptic.com/mycompany/docs/React+</tspan>
                 <tspan x="41" y="110" fill="#4A90E2">Redux#ConnectingToStore</tspan>
             </text>
         </g>
