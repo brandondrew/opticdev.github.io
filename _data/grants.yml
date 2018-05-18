@@ -1,0 +1,11 @@
+header: "Open Source Grants"
+subtext: "an experiment in distributed development"
+contents: "There are more open source developers than ever making a living off of sponsorships, grants and bounties and we think a lot of more development will soon move outside the silos of corporations. Optic is a young project and we have decided the environment is ripe for us to perform an experiment. Starting today we’re offering detailed specs, clear instructions and ongoing grants to anyone in the community interested in contributing/maintaining parts of Optic. The projects listed here are limited in scope and constitute 1-1.5 days of work. If the initial results are good we’ll expand the scope of the grants offered and expand to more developers. If you’re interested in our product and want to help bring it to the masses we’d love to have you involved. <br/><br/> We’ll be collecting data and recording our insights throughout this experiment and we hope to release our leanings in a post about distributed development later this year."
+
+grant1:
+  header: "1. Optic Editor Plugins ($650-$950)"
+  what: "<b>What</b>: A plugin for a popular IDE listed below. Each IDE connects to our standalone app through a very simple plugin. That plugin forwards the state (file & cursor position) to Optic. Here’s a detailed <a href='https://github.com/opticdev/optic-editor-plugin-spec'>spec</a>. We already wrote SDKs for <a href='https://github.com/opticdev/optic-editor-javascript-sdk'>Javascript</a> & <a href='https://github.com/opticdev/optic-editor-python-sdk'>Python</a> plugin runtimes that should make the work go quickly."
+  grant: "<b>The Grant:</b> All code written must be released on GitHub under the MIT License. Once we’ve confirmed that your plugin conforms to the spec we’ll get you paid and send you some swag. Next time we update the spec you’ll have right of first refusal on a maintenance grant. This will probably happen every 8-12 months or whenever the target IDE releases a major update."
+
+grant2:
+  header: "1. Optic Editor Plugins"
