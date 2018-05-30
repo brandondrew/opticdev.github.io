@@ -1,9 +1,9 @@
 name: "Optic"
-release: "[1.0.0-rc1]"
-date: "May 15th, 2018"
+release: "[1.0.0]"
+date: "May 30th, 2018"
 description: "Supports macOS >= 10.10 (Yosemite)"
 downloadButton: "Download"
-downloadLink: "https://github.com/opticdev/macos-release-tracker/releases/download/1.0.0-RC1/OpticRC1.dmg"
+downloadLink: "https://github.com/opticdev/macos-release-tracker/releases/download/1.0.0/Optic1.0.0.dmg"
 
 
 pickEditor: "Download Plugin for Your IDE"
