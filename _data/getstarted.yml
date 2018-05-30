@@ -15,7 +15,7 @@ atom:
 
 vscode:
   name: "VS Code"
-  link: ""
+  link: "https://marketplace.visualstudio.com/items?itemName=useoptic.optic"
   image: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Visual_Studio_Code_1.18_icon.svg"
 
 jetbrains:
