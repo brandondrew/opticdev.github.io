@@ -49,16 +49,22 @@
 
 {% include header.html %}
 
-<section class="fdb-block" style="background-image: url(../imgs/bg_0.svg); color: #DFDFDF">
+<section class="fdb-block" style="background-color: #f9f9f9">
     <div class="container">
+        <div class="row">
+            <div class="col text-left">
+                <h1>{{site.data.getstarted.download}}</h1>
+            </div>
+        </div>
         <div class="row justify-content-center align-items-center pt-5">
             <div class="col-8 col-sm-3" style="text-align: center">
                 <img alt="image" class="img-fluid" width="150" src="../imgs/optic-logo.jpg">
             </div>
             <div class="col-12 col-sm-6 m-auto pt-4 pt-sm-0">
-                <h2><strong>{{ site.data.getstarted.name }} {{ site.data.getstarted.release }}</strong></h2>
+                <h2><strong>{{ site.data.getstarted.name }}</strong></h2>
+                <p class="text-h4"><strong>Release: {{site.data.getstarted.release}}</strong></p>
                 <p class="text-h4"><strong>Published: {{site.data.getstarted.date}}</strong></p>
-                <p class="text-h3">{{site.data.getstarted.description}}</p>
+                <p class="text-h5">{{site.data.getstarted.description}}</p>
             </div>
             <div class="col-12 col-sm-3 text-center pt-4 pt-sm-0">
                 <p><a class="btn" target="_blank" href="{{site.data.getstarted.downloadLink}}">{{site.data.getstarted.downloadButton}}</a></p>
@@ -112,6 +118,37 @@
 
 <section class="fdb-block">
     <div class="container">
+
+        <div class="row">
+            <div class="col text-left">
+                <h1>{{site.data.getstarted.exploreDemo}}</h1>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+
+            <div class="col-12 col-lg-6">
+                <img alt="image" class="img-fluid" src="../imgs/demoproject.png" style="border: 1px solid grey">
+            </div>
+
+            <div class="col-12 col-lg-6 pt-5 pt-lg-0">
+                <p class="text-h3 text-left">
+                    {{site.data.getstarted.exporeDemoText}}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fdb-block">
+    <div class="container">
+
+        <div class="row">
+            <div class="col text-left">
+                <h1>{{site.data.getstarted.readDocs}}</h1>
+            </div>
+        </div>
+
         <div class="row align-items-center">
 
             <div class="col-12 col-lg-6">
@@ -120,21 +157,6 @@
 
             <div class="col-12 col-lg-6 pt-5 pt-lg-0">
                 <p class="text-h3 text-left">Curious about how Optic works? Want to teach it something new? <a href='https://useoptic.com/docs' target='_blank'>Check out our docs here</a> </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="fdb-block">
-    <div class="container">
-        <div class="row">
-            <div class="col text-left">
-                <h2>{{site.data.getstarted.devStatus.header}}</h2>
-
-                <p>{{site.data.getstarted.devStatus.paragraph1}}</p>
-
-                <p>{{site.data.getstarted.devStatus.paragraph2}}</p>
             </div>
         </div>
     </div>

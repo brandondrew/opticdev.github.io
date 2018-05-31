@@ -1,12 +1,18 @@
 name: "Optic"
-release: "[1.0.0]"
+release: "1.0.0"
 date: "May 30th, 2018"
 description: "Supports macOS >= 10.10 (Yosemite)"
 downloadButton: "Download"
 downloadLink: "https://github.com/opticdev/macos-release-tracker/releases/download/1.0.0/Optic1.0.0.dmg"
 
+download: "1. Download Optic App"
 
-pickEditor: "Download Plugin for Your IDE"
+pickEditor: "2. Install Plugin for Your IDE"
+
+exploreDemo: "3. Explore Demo Project"
+exporeDemoText: "Use the <a href='https://github.com/opticdev/optic-demo-project'>Demo Project</a> included with in the .dmg to try out Optic's ability to write, transform and sync code."
+
+readDocs: "4. Read Documentation"
 
 atom:
   name: "Atom"
@@ -22,10 +28,3 @@ jetbrains:
   name: "JetBrains"
   link: ""
   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/JetBrains_Logo_2016.svg/512px-JetBrains_Logo_2016.svg.png"
-
-
-devStatus:
-  header: "Development Status"
-  paragraph1: "The <a href='https://github.com/opticdev/optic' target='_blank'>core engine</a> is stable and open sourced. There are a few key features still under development before 1.0 will be released: <ul> <li>OPM (Optic Package Manager) registry will go live. </li> <li>Support for More Powerful Transformations</li> <li>Ability to Generate Directory Structures</li> <li> Capability for Optic to Manage Project Dependencies </li> <li> Enhanced tooling to support Optic Markdown Development </li> <li> Support for Additional IDEs </li> </ul> "
-
-  paragraph2: "The major limitation most users will run into when trying out Optic during the Beta is a lack of useful content within the system. We're working hard to bootstrap Optic knowledge for the most popular libraries in the Node.js ecosystem but it is going to be a few weeks before this task is finished. If you're interested in teaching Optic to do some interesting things, check out <a href='https://useoptic.com/docs' target='_blank'>our docs</a>."

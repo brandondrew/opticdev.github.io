@@ -20,3 +20,6 @@ discover:
   header: "Discover The Right Standards for Your Team"
   subtext: "Looking to use a new technology? Don’t reinvent the wheel. Choose from a list of battle tested conventions from our knowledge base to use for your team. If we don’t have something on hand we can work with your vendors to put their best practices into Optic documentation."
 
+
+callToAction:
+  header: "Help your Developers spend more of their time on <u>the work that matters most</u>"
