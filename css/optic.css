@@ -1,0 +1,52 @@
+/* Home Hero */
+.optic-home-hero {
+    background-image: url(../imgs/hero_best_code.png), linear-gradient(to right, #24315c, #3e3c7e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+
+@media (max-width: 600px) {
+    .optic-home-hero {
+        background-image: url(../imgs/hero_best_code_mobile.png), linear-gradient(to right, #24315c, #3e3c7e);
+        background-repeat: no-repeat;
+        height: 700px;
+        background-position: center bottom;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 1300px) {
+    .optic-home-hero {
+        height: 750px;
+    }
+}
+
+
+/* Teams Hero */
+
+.optic-teams-hero {
+    background: url(../imgs/hero_choose_both.png) 300px, linear-gradient(to right, #24315c, #3e3c7e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+
+@media (max-width: 600px) {
+    .optic-teams-hero {
+        background: url(../imgs/choose_both_mobile.png), linear-gradient(to right, #24315c, #3e3c7e);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+    }
+}
+
+@media (min-width: 1250px) {
+    .optic-teams-hero {
+        background: url(../imgs/hero_choose_both.png) 500px, linear-gradient(to right, #24315c, #3e3c7e);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

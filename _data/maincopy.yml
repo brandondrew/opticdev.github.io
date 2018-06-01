@@ -3,7 +3,7 @@ subtext: "Our AI Pair-Programmer Automates Ordinary Tasks so Your Team can Focus
 
 highlight:
   header: "Highlight Code, Receive Suggestions"
-  subtext: "Optic figures out what code you might want to write next and offers to generate it."
+  subtext: "Optic looks at your code and figures out what to generate next"
 
 ask:
   header: "Ask Questions from your IDE"
@@ -11,7 +11,7 @@ ask:
 
 connect:
   header: "Connect Projects"
-  subtext: "Most of the code in any project is related and developers are tired of manually updating code across multiple files. Optic helps maintain those relationships by reading code making pull requests. Rely on one source of truth to generate and maintain code across all your projects."
+  subtext: "Most of the code in any project is related and developers are tired of manually updating code across multiple files. Optic helps maintain those relationships by reading code and making pull requests. Rely on one source of truth to generate and maintain code across all your projects."
 
 
 callToAction:
