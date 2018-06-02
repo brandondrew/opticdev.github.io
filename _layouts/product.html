@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Optic -- Product</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112777347-1"></script>
+    <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-112777347-1');
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <link type="text/css" rel="stylesheet" href="/css/froala_blocks.css">
+    <link type="text/css" rel="stylesheet" href="/css/optic.css">
+
+    <style>
+        #navigator {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        #navigator .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        @media (max-width: 720px) {
+            #navigator {
+                border-bottom: 1px solid #ccc;
+            }
+        }
+
+        #navigator a {
+            font-size: 14px;
+        }
+
+        #navigator + section {
+            padding: 250px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+{% include header.html %}
+
+<section class="fdb-block" style="background-color: #2c5ec4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 col-xl-5">
+                <h1 style="color: white; font-weight: 200">{{ site.data.product.opticIs }}</h1>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6 m-auto mr-lg-0 ml-lg-auto pt-5 pt-lg-0">
+                <img alt="image" class="img-fluid" width="100%" src="/imgs/opticIs.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="fdb-block">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-8 col-lg-6 m-md-auto ml-lg-0 mr-lg-auto">
+                <img alt="image" class="img-fluid" width="100%" src="/imgs/read.png">
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5 ml-sm-auto pt-5 pt-lg-0">
+                <h1 style="font-weight: 200">{{ site.data.product.read }}</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="fdb-block" style="background-color: #00bafa">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 col-xl-5">
+                <h1 style="color: white; font-weight: 200">{{ site.data.product.graph }}</h1>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6 m-auto mr-lg-0 ml-lg-auto pt-5 pt-lg-0">
+                <img alt="image" class="img-fluid" width="100%" src="/imgs/graph.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fdb-block" style="background-color: #e9feff">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-8 col-lg-6 m-md-auto ml-lg-0 mr-lg-auto">
+                <img alt="image" class="img-fluid" width="100%" src="/imgs/code.png">
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5 ml-sm-auto pt-5 pt-lg-0">
+                <h1 style="font-weight: 200">{{ site.data.product.code }}</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fdb-block" style="background-color: #6b60ee">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 col-xl-5">
+                <h1 style="color: white; font-weight: 200">{{ site.data.product.sync }}</h1>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6 m-auto mr-lg-0 ml-lg-auto pt-5 pt-lg-0">
+                <img alt="image" class="img-fluid" width="100%" src="/imgs/sync.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fdb-block">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>{{ site.data.whatsdifferent.header }}</h1>
+            </div>
+        </div>
+        <div class="row text-left mt-5">
+            <div class="col-12 col-md-4">
+                <div class="row">
+                    <div class="col-3">
+                        <img alt="image" class="img-fluid" src={{ site.data.whatsdifferent.private.img }}>
+                    </div>
+                    <div class="col-9">
+                        <h3><strong>{{ site.data.whatsdifferent.private.name }}</strong></h3>
+                        <p>{{ site.data.whatsdifferent.private.subtext }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+                <div class="row">
+                    <div class="col-3">
+                        <img alt="image" class="img-fluid" src={{ site.data.whatsdifferent.control.img }}>
+                    </div>
+                    <div class="col-9">
+                        <h3><strong>{{ site.data.whatsdifferent.control.name }}</strong></h3>
+                        <p>{{ site.data.whatsdifferent.control.subtext }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+                <div class="row">
+                    <div class="col-3">
+                        <img alt="image" class="img-fluid" src={{ site.data.whatsdifferent.forTeams.img }}>
+                    </div>
+                    <div class="col-9">
+                        <h3><strong>{{ site.data.whatsdifferent.forTeams.name }}</strong></h3>
+                        <p>{{ site.data.whatsdifferent.forTeams.subtext }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-left pt-3 pt-sm-4 pt-md-5">
+            <div class="col-12 col-md-4">
+                <div class="row">
+                    <div class="col-3">
+                        <img alt="image" class="img-fluid" src={{ site.data.whatsdifferent.flexible.img }}>
+                    </div>
+                    <div class="col-9">
+                        <h3><strong>{{ site.data.whatsdifferent.flexible.name }}</strong></h3>
+                        <p>{{ site.data.whatsdifferent.flexible.subtext }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+                <div class="row">
+                    <div class="col-3">
+                        <img alt="image" class="img-fluid" src={{ site.data.whatsdifferent.nodependencies.img }}>
+                    </div>
+                    <div class="col-9">
+                        <h3><strong>{{ site.data.whatsdifferent.nodependencies.name }}</strong></h3>
+                        <p>{{ site.data.whatsdifferent.nodependencies.subtext }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+                <div class="row">
+                    <div class="col-3">
+                        <img alt="image" class="img-fluid" src={{ site.data.whatsdifferent.opensource.img }}>
+                    </div>
+                    <div class="col-9">
+                        <h3><strong>{{ site.data.whatsdifferent.opensource.name }}</strong></h3>
+                        <p>{{ site.data.whatsdifferent.opensource.subtext }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fdb-block">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <div class="row justify-content-center pb-5">
+                    <div class="col-12 col-lg-8 text-center">
+                        <h1>Watch Video</h1>
+                    </div>
+                </div>
+
+                <iframe width="760" height="515" src="https://www.youtube.com/embed/sMXcKMKYZ8c?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fdb-block">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 text-left">
+                <h1> {{ site.data.product.callToAction.header }} </h1>
+                <p class="mt-5 mt-sm-4" style="padding-top: 30px">
+                    <a class="btn" href="/get-optic" >Make Optic Your Assistant</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include footer.html %}
+
+</body>
+</html>

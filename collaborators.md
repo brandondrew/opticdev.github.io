@@ -1,6 +1,6 @@
 ---
-title: Collaborators
-permalink: /collaborators/
-layout: collaborators
+title: Contributors
+permalink: /contributors/
+layout: contributors
 ---
 

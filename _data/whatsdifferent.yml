@@ -2,30 +2,30 @@ header: "What's Different?"
 
 private:
   name: "Private"
-  img: "./imgs/whatsdifferent/private.svg"
+  img: "/imgs/whatsdifferent/private.svg"
   subtext: "Runs Locally. Code Never Leaves your Machine"
 
 control:
   name: "Full Control"
-  img: "./imgs/whatsdifferent/full-control.svg"
+  img: "/imgs/whatsdifferent/full-control.svg"
   subtext: "Write Code, Generate Code, Change Anything You Want"
 
 forTeams:
   name: "For Teams"
-  img: "./imgs/whatsdifferent/forTeams.svg"
+  img: "/imgs/whatsdifferent/forTeams.svg"
   subtext: "Built with Your Team in Mind"
 
 flexible:
   name: "Flexible"
-  img: "./imgs/whatsdifferent/flexible.svg"
+  img: "/imgs/whatsdifferent/flexible.svg"
   subtext: "Optic Respects your Current Workflow/Tools"
 
 nodependencies:
   name: "No Dependencies"
-  img: "./imgs/whatsdifferent/zero.svg"
+  img: "/imgs/whatsdifferent/zero.svg"
   subtext: "Start or Stop Using Anytime"
 
 opensource:
   name: "Open Source"
-  img: "./imgs/whatsdifferent/github.svg"
+  img: "/imgs/whatsdifferent/github.svg"
   subtext: "The Future of Programming should be Open"
