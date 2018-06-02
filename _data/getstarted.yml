@@ -10,7 +10,7 @@ download: "1. Download Optic App"
 pickEditor: "2. Install Plugin for Your IDE"
 
 exploreDemo: "3. Explore Demo Project"
-exporeDemoText: "Use the <a href='https://github.com/opticdev/optic-demo-project'>Demo Project</a> included with in the .dmg to try out Optic's ability to write, transform and sync code."
+exporeDemoText: "Use the <a href='https://github.com/opticdev/optic-demo-project'>Demo Project</a> included within the .dmg to try out Optic's ability to write, transform and sync code."
 
 readDocs: "4. Read Documentation"
 
