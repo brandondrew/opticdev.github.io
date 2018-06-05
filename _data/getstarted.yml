@@ -26,5 +26,5 @@ vscode:
 
 jetbrains:
   name: "JetBrains"
-  link: ""
+  link: "https://plugins.jetbrains.com/plugin/10786-optic"
   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/JetBrains_Logo_2016.svg/512px-JetBrains_Logo_2016.svg.png"
