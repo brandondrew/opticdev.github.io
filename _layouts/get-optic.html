@@ -67,7 +67,7 @@
                 <p class="text-h5">{{site.data.getstarted.description}}</p>
             </div>
             <div class="col-12 col-sm-3 text-center pt-4 pt-sm-0">
-                <p><a class="btn" target="_blank" href="{{site.data.getstarted.downloadLink}}">{{site.data.getstarted.downloadButton}}</a></p>
+                <p><a class="btn" target="_blank" href="{{site.data.getstarted.downloadLink}}" onclick="mixpanel.track('Download')">{{site.data.getstarted.downloadButton}}</a></p>
                 <p class="text-h5"><em>.dmg installer</em></p>
             </div>
         </div>
