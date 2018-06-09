@@ -1,18 +1,7 @@
-name: "Optic"
-release: "1.0.0"
-date: "May 30th, 2018"
-description: "Supports macOS >= 10.10 (Yosemite)"
-downloadButton: "Download"
-downloadLink: "https://github.com/opticdev/macos-release-tracker/releases/download/1.0.0/Optic1.0.0.dmg"
+exploreDemo: "Try the demo Project"
+exporeDemoText: "Use the <a href='https://github.com/opticdev/optic-demo-project'>Demo Project</a> (the installer will open it for you) to try out Optic's ability to write, transform and sync code."
 
-download: "1. Download Optic App"
-
-pickEditor: "2. Install Plugin for Your IDE"
-
-exploreDemo: "3. Explore Demo Project"
-exporeDemoText: "Use the <a href='https://github.com/opticdev/optic-demo-project'>Demo Project</a> included within the .dmg to try out Optic's ability to write, transform and sync code."
-
-readDocs: "4. Read Documentation"
+readDocs: "Read our Documentation"
 
 atom:
   name: "Atom"

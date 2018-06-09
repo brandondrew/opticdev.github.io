@@ -49,72 +49,41 @@
 
 {% include header.html %}
 
-<section class="fdb-block" style="background-color: #f9f9f9">
+<section class="fdb-block "  >
     <div class="container">
         <div class="row">
-            <div class="col text-left">
-                <h1>{{site.data.getstarted.download}}</h1>
+            <div class="col text-center">
+                <h1>Download Optic from your CLI</h1>
             </div>
         </div>
-        <div class="row justify-content-center align-items-center pt-5">
-            <div class="col-8 col-sm-3" style="text-align: center">
-                <img alt="image" class="img-fluid" width="150" src="../imgs/optic-logo.jpg">
-            </div>
-            <div class="col-12 col-sm-6 m-auto pt-4 pt-sm-0">
-                <h2><strong>{{ site.data.getstarted.name }}</strong></h2>
-                <p class="text-h4"><strong>Release: {{site.data.getstarted.release}}</strong></p>
-                <p class="text-h4"><strong>Published: {{site.data.getstarted.date}}</strong></p>
-                <p class="text-h5">{{site.data.getstarted.description}}</p>
-            </div>
-            <div class="col-12 col-sm-3 text-center pt-4 pt-sm-0">
-                <p><a class="btn" target="_blank" href="{{site.data.getstarted.downloadLink}}" onclick="mixpanel.track('Download')">{{site.data.getstarted.downloadButton}}</a></p>
-                <p class="text-h5"><em>.dmg installer</em></p>
+        <div class="row justify-content-center text-center">
+            <div class="col-12 col-md-8">
+                <img alt="image" class="fdb-icon" src="/imgs/download-code-bash.png" style="width: 100%; cursor: pointer" onclick="copyToClipboard('npm install optic-installer -g'); alert('Copied command to clipboard')">
             </div>
         </div>
-    </div>
-</section>
 
-
-<section class="fdb-block">
-
-    <div class="container">
         <div class="row">
-            <div class="col text-left">
-                <h1>{{site.data.getstarted.pickEditor}}</h1>
+            <div class="col text-center">
+                <h4 style="padding-bottom: 20px">Today we Support MacOS and these IDEs</h4>
+                <img src="{{site.data.getstarted.atom.image}}" width="50">
+                <img src="{{site.data.getstarted.vscode.image}}" width="50">
+                <img src="https://confluence.jetbrains.com/download/thumbnails/51964300/WebStorm_400x400_Twitter_logo_white.png?version=1&modificationDate=1449748842000&api=v2" width="50">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/IntelliJ_IDEA_Logo.svg" width="50">
             </div>
         </div>
 
-        <div class="row text-center">
-
-            <div class="col-12 col-md-8 m-auto col-lg-4">
-                <div class="fdb-box fdb-touch">
-                    <img alt="image" class="fdb-icon" src="{{site.data.getstarted.atom.image}}">
-                    <h2>{{site.data.getstarted.atom.name}}</h2>
-                    <a href="{{site.data.getstarted.atom.link}}" target="_blank" class="btn btn-shadow btn-empty">Get Plugin</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-8 m-auto col-lg-4 pt-5 pt-lg-0" >
-                <div class="fdb-box fdb-touch">
-                    <img alt="image" height="60" class="fdb-icon" src="{{site.data.getstarted.vscode.image}}">
-                    <h2>{{site.data.getstarted.vscode.name}}</h2>
-                    <a href="{{site.data.getstarted.vscode.link}}" target="_blank" class="btn btn-shadow btn-empty">Get Plugin</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-8 m-auto col-lg-4 pt-5 pt-lg-0" >
-                <div class="fdb-box fdb-touch" style="border-top-color: #586480">
-                    <img alt="image" height="60" class="fdb-icon" src="{{site.data.getstarted.jetbrains.image}}">
-                    <h2>{{site.data.getstarted.jetbrains.name}}</h2>
-                    <a href="{{site.data.getstarted.jetbrains.link}}" target="_blank" class="btn btn-shadow btn-empty">Get Plugin</a>
-                </div>
-            </div>
-
-
-        </div>
     </div>
+    <script type="text/javascript">
+		function copyToClipboard(str){
+			const el = document.createElement('textarea');
+			el.value = str;
+			document.body.appendChild(el);
+			el.select();
+			document.execCommand('copy');
+			document.body.removeChild(el);
+		};
+    </script>
 </section>
-
 
 <section class="fdb-block">
     <div class="container">
@@ -168,9 +137,9 @@
         <div class="row justify-content-center">
             <div class="col-12  col-md-10 col-lg-8 col-xl-6 text-center">
                 <img alt="image" height="40" src="../imgs/img_round.svg">
-                <h1>{{ site.data.maincopy.subscribe.header }}</h1>
+                <h1>Share Your Email</h1>
                 <p class="text-h3">{{ site.data.maincopy.subscribe.message }}</p>
-                <p class="text-h5"><em>*We will never share your email & we promise to be respectful of your time.</em></p>
+                <p class="text-h5"><em>*We promise to be respectful of your time.</em></p>
                 <div class="input-group mt-4 mb-4">
                     <form style="width: 100%;" action="https://opticdev.us17.list-manage.com/subscribe/post?u=8d0971c44031012e6c5292ccd&amp;id=37d217e491" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Enter your email address" style="position: absolute; width: 100%;">
@@ -187,7 +156,6 @@
 </section>
 
 {% include footer.html %}
-
 
 </body>
 </html>
