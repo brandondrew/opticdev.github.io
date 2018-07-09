@@ -1,9 +1,0 @@
-opticIs: "<b>Optic</b> is an artificial intelligence that <u>reads</u> and <u>writes</u> code, helping you build, sync, and maintain your projects."
-read: "<b>Optic</b> can read your existing code allowing it to integrate with any project and maintain it over time."
-graph: "<b>Optic</b> discovers the key components in your project and understands how they connect."
-code: "<b>Optic</b> can write new code for you on-demand or transform existing sections into another kind of code."
-sync: "<b>Optic</b> knows when you make an important change to your code and can automatically create pull requests to keep your code in sync."
-
-
-callToAction:
-  header: "Spend more of your time on <u>the work that matters most</u>"
