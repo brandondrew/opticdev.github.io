@@ -1,32 +1,32 @@
 {
   "assetsByChunkName": {
     "path---another-code-generator": [
-      "path---another-code-generator-e972a26719d5eebbf225.js",
-      "path---another-code-generator-e972a26719d5eebbf225.js.map"
+      "path---another-code-generator-7208fd5c026e849dda3e.js",
+      "path---another-code-generator-7208fd5c026e849dda3e.js.map"
     ],
     "path---technical-overview": [
-      "path---technical-overview-929b8ea5680a89e4c34a.js",
-      "path---technical-overview-929b8ea5680a89e4c34a.js.map"
+      "path---technical-overview-b008e7d3f35906504c96.js",
+      "path---technical-overview-b008e7d3f35906504c96.js.map"
     ],
     "path---writing-skills": [
-      "path---writing-skills-985c402c5af762806e64.js",
-      "path---writing-skills-985c402c5af762806e64.js.map"
+      "path---writing-skills-4a23f109f7b60c10beb2.js",
+      "path---writing-skills-4a23f109f7b60c10beb2.js.map"
     ],
     "path---sync": [
-      "path---sync-6f1141eb641ff85b3f61.js",
-      "path---sync-6f1141eb641ff85b3f61.js.map"
+      "path---sync-cfaa34ff6b3f299f34c7.js",
+      "path---sync-cfaa34ff6b3f299f34c7.js.map"
     ],
     "path---advanced-transformations": [
       "path---advanced-transformations-9d70000a97c2274a5b02.js",
       "path---advanced-transformations-9d70000a97c2274a5b02.js.map"
     ],
     "path---what-is-optic": [
-      "path---what-is-optic-64abe0ad0f86588823da.js",
-      "path---what-is-optic-64abe0ad0f86588823da.js.map"
+      "path---what-is-optic-fe0c3c9ed0ff3f6d4420.js",
+      "path---what-is-optic-fe0c3c9ed0ff3f6d4420.js.map"
     ],
     "path---blog": [
-      "path---blog-3d5917852b255e1cee83.js",
-      "path---blog-3d5917852b255e1cee83.js.map"
+      "path---blog-2142c81690eaa043316a.js",
+      "path---blog-2142c81690eaa043316a.js.map"
     ],
     "path---": [
       "path----6611940bd40871b680a6.js",
@@ -37,8 +37,8 @@
       "path---teams-586c7e095e534a3909ec.js.map"
     ],
     "path---defining-transformations": [
-      "path---defining-transformations-abd8beee8fb4440e1a1f.js",
-      "path---defining-transformations-abd8beee8fb4440e1a1f.js.map"
+      "path---defining-transformations-22b5039071751e6cd5ff.js",
+      "path---defining-transformations-22b5039071751e6cd5ff.js.map"
     ],
     "path---next-project": [
       "path---next-project-fb315a6de2019960ae2e.js",
@@ -52,25 +52,21 @@
       "component---src-layouts-index-jsx-a1c333e351ee21b88be0.js",
       "component---src-layouts-index-jsx-a1c333e351ee21b88be0.js.map"
     ],
-    "path---using-get-started": [
-      "path---using-get-started-1357f417ea734372e89e.js",
-      "path---using-get-started-1357f417ea734372e89e.js.map"
-    ],
     "path---categories-tech": [
       "path---categories-tech-48f51d3872ef7cc129b2.js",
       "path---categories-tech-48f51d3872ef7cc129b2.js.map"
     ],
     "path---transform": [
-      "path---transform-e6e8e0c4643ff433b542.js",
-      "path---transform-e6e8e0c4643ff433b542.js.map"
+      "path---transform-e82074fef6dadb5a8325.js",
+      "path---transform-e82074fef6dadb5a8325.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---knowledge-packages": [
-      "path---knowledge-packages-8e8d11ae4970e4cc9e82.js",
-      "path---knowledge-packages-8e8d11ae4970e4cc9e82.js.map"
+      "path---knowledge-packages-2ad38eb14691f5d9530f.js",
+      "path---knowledge-packages-2ad38eb14691f5d9530f.js.map"
     ],
     "component---src-templates-lesson-jsx": [
       "component---src-templates-lesson-jsx-2f3c64e1a2e18dac8355.js",
@@ -81,40 +77,40 @@
       "path---optic-markdown-cli-50eacac667f6b7a3a33a.js.map"
     ],
     "path---workflow": [
-      "path---workflow-733251b2bdb9ce0c0c92.js",
-      "path---workflow-733251b2bdb9ce0c0c92.js.map"
+      "path---workflow-9ca92a9c5ee0116953a7.js",
+      "path---workflow-9ca92a9c5ee0116953a7.js.map"
     ],
     "path---starting-the-public-beta": [
       "path---starting-the-public-beta-30c915890bee1c15ced2.js",
       "path---starting-the-public-beta-30c915890bee1c15ced2.js.map"
     ],
     "path---generate-request-js-calls-for-every-route-in-an-express-backend": [
-      "path---generate-request-js-calls-for-every-route-in-an-express-backend-a24721c43ecc18d270e9.js",
-      "path---generate-request-js-calls-for-every-route-in-an-express-backend-a24721c43ecc18d270e9.js.map"
+      "path---generate-request-js-calls-for-every-route-in-an-express-backend-df9f017b36130bbbdb12.js",
+      "path---generate-request-js-calls-for-every-route-in-an-express-backend-df9f017b36130bbbdb12.js.map"
     ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-921906bf97e267672e56.js",
       "component---src-templates-category-jsx-921906bf97e267672e56.js.map"
     ],
     "path---index": [
-      "path---index-3d5917852b255e1cee83.js",
-      "path---index-3d5917852b255e1cee83.js.map"
+      "path---index-2142c81690eaa043316a.js",
+      "path---index-2142c81690eaa043316a.js.map"
     ],
     "path---extending-optic": [
-      "path---extending-optic-0f32f3f24d2e38282b10.js",
-      "path---extending-optic-0f32f3f24d2e38282b10.js.map"
+      "path---extending-optic-876bb16bbeb55023de65.js",
+      "path---extending-optic-876bb16bbeb55023de65.js.map"
     ],
     "path---writing-lenses": [
-      "path---writing-lenses-b8ac81c90a063647b7c0.js",
-      "path---writing-lenses-b8ac81c90a063647b7c0.js.map"
+      "path---writing-lenses-ba7d076594a4f7fd59fd.js",
+      "path---writing-lenses-ba7d076594a4f7fd59fd.js.map"
     ],
     "path---generate-express-crud-routes-from-a-mongoose-model": [
-      "path---generate-express-crud-routes-from-a-mongoose-model-7055ab2a86b8c1e613c3.js",
-      "path---generate-express-crud-routes-from-a-mongoose-model-7055ab2a86b8c1e613c3.js.map"
+      "path---generate-express-crud-routes-from-a-mongoose-model-218449bbf697c416358f.js",
+      "path---generate-express-crud-routes-from-a-mongoose-model-218449bbf697c416358f.js.map"
     ],
     "component---src-pages-download-jsx": [
-      "component---src-pages-download-jsx-5cebf88b42328a5beded.js",
-      "component---src-pages-download-jsx-5cebf88b42328a5beded.js.map"
+      "component---src-pages-download-jsx-b0840a9f85692dc6785f.js",
+      "component---src-pages-download-jsx-b0840a9f85692dc6785f.js.map"
     ],
     "commons": [
       "commons-15a4f65ef87ed37368ed.js",
@@ -143,8 +139,8 @@
       "path---download-586c7e095e534a3909ec.js.map"
     ],
     "path---properties": [
-      "path---properties-e4c97dc2a571b71bb0f5.js",
-      "path---properties-e4c97dc2a571b71bb0f5.js.map"
+      "path---properties-d1a9df059e6ee4e41dde.js",
+      "path---properties-d1a9df059e6ee4e41dde.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js",
@@ -159,42 +155,46 @@
       "component---src-pages-index-jsx-e9347c3edea237aa8d90.js.map"
     ],
     "path---defining-schemas": [
-      "path---defining-schemas-3d9db04fa157ad5a1fa7.js",
-      "path---defining-schemas-3d9db04fa157ad5a1fa7.js.map"
+      "path---defining-schemas-34a3483feb9779fb5b32.js",
+      "path---defining-schemas-34a3483feb9779fb5b32.js.map"
     ],
     "path---better-transformations": [
       "path---better-transformations-f4b4962e06cceb17a6c4.js",
       "path---better-transformations-f4b4962e06cceb17a6c4.js.map"
     ],
     "app": [
-      "app-5ff05883166858e06229.js",
+      "app-359cc766432004f4099f.js",
       "build-js-styles.css",
-      "app-5ff05883166858e06229.js.map",
+      "app-359cc766432004f4099f.js.map",
       "build-js-styles.css.map"
     ],
     "path---starting-sync": [
       "path---starting-sync-274c9018dab803ff7f84.js",
       "path---starting-sync-274c9018dab803ff7f84.js.map"
     ],
+    "path---get-started": [
+      "path---get-started-a08ff7bdeda460192740.js",
+      "path---get-started-a08ff7bdeda460192740.js.map"
+    ],
     "path---1-0-launched": [
       "path---1-0-launched-5a44b7d743a413113f3a.js",
       "path---1-0-launched-5a44b7d743a413113f3a.js.map"
     ],
     "path---adding-optic-support-for-new-id-es": [
-      "path---adding-optic-support-for-new-id-es-56fcfa7e6fd7a882eb89.js",
-      "path---adding-optic-support-for-new-id-es-56fcfa7e6fd7a882eb89.js.map"
+      "path---adding-optic-support-for-new-id-es-887ad857058fd52a04b4.js",
+      "path---adding-optic-support-for-new-id-es-887ad857058fd52a04b4.js.map"
     ],
     "path---first-release-open-source-beta-plans": [
       "path---first-release-open-source-beta-plans-d1635213bb99a993ace7.js",
       "path---first-release-open-source-beta-plans-d1635213bb99a993ace7.js.map"
     ],
     "path---search": [
-      "path---search-f1410a3228bc6b661380.js",
-      "path---search-f1410a3228bc6b661380.js.map"
+      "path---search-b06bd0919d9b45830bf8.js",
+      "path---search-b06bd0919d9b45830bf8.js.map"
     ],
     "path---publishing": [
-      "path---publishing-9b9d159335ebd1a5b5d6.js",
-      "path---publishing-9b9d159335ebd1a5b5d6.js.map"
+      "path---publishing-7b2e45ff13bb165e21fd.js",
+      "path---publishing-7b2e45ff13bb165e21fd.js.map"
     ],
     "path---finished-sync": [
       "path---finished-sync-bda2afb3535dc988d5b0.js",
