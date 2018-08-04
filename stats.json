@@ -28,6 +28,10 @@
       "path---blog-advanced-transformations-f104e4bc227a59dd19ba.js",
       "path---blog-advanced-transformations-f104e4bc227a59dd19ba.js.map"
     ],
+    "component---src-pages-skills-jsx": [
+      "component---src-pages-skills-jsx-c06259d944084c6221e1.js",
+      "component---src-pages-skills-jsx-c06259d944084c6221e1.js.map"
+    ],
     "path---docs-authoring-knowledge-packages": [
       "path---docs-authoring-knowledge-packages-b2f7aa581fa6d7b5327d.js",
       "path---docs-authoring-knowledge-packages-b2f7aa581fa6d7b5327d.js.map"
@@ -81,8 +85,8 @@
       "path---docs-using-transform-818637d956cde2eeecc9.js.map"
     ],
     "component---src-templates-lesson-jsx": [
-      "component---src-templates-lesson-jsx-2f3c64e1a2e18dac8355.js",
-      "component---src-templates-lesson-jsx-2f3c64e1a2e18dac8355.js.map"
+      "component---src-templates-lesson-jsx-772e29a295b5ea77ee8f.js",
+      "component---src-templates-lesson-jsx-772e29a295b5ea77ee8f.js.map"
     ],
     "path---docs-authoring-extending-optic": [
       "path---docs-authoring-extending-optic-e0059ed911fc9618c852.js",
@@ -93,12 +97,16 @@
       "path---blog-1-0-launched-400c3bb829baac5368de.js.map"
     ],
     "component---src-templates-category-jsx": [
-      "component---src-templates-category-jsx-0b381c13791c00bd760e.js",
-      "component---src-templates-category-jsx-0b381c13791c00bd760e.js.map"
+      "component---src-templates-category-jsx-e95a2ab43b2b926045e0.js",
+      "component---src-templates-category-jsx-e95a2ab43b2b926045e0.js.map"
     ],
     "path---index": [
       "path---index-328765a1c015986de7fc.js",
       "path---index-328765a1c015986de7fc.js.map"
+    ],
+    "path---skills": [
+      "path---skills-586c7e095e534a3909ec.js",
+      "path---skills-586c7e095e534a3909ec.js.map"
     ],
     "path---docs-what-is-optic-what-is-optic": [
       "path---docs-what-is-optic-what-is-optic-e2988f7122a790c209a7.js",
@@ -121,9 +129,9 @@
       "path---docs-using-sync-fecae89545eb5aaaf45f.js.map"
     ],
     "commons": [
-      "commons-c972974621c745f296ed.js",
+      "commons-148022f705a2a5419ebb.js",
       "build-js-styles.css",
-      "commons-c972974621c745f296ed.js.map",
+      "commons-148022f705a2a5419ebb.js.map",
       "build-js-styles.css.map"
     ],
     "path---docs-using-search": [
@@ -135,8 +143,8 @@
       "component---src-pages-teams-jsx-9f58abc2dc28efb0560f.js.map"
     ],
     "component---src-pages-blog-jsx": [
-      "component---src-pages-blog-jsx-a54f16759d183798d34a.js",
-      "component---src-pages-blog-jsx-a54f16759d183798d34a.js.map"
+      "component---src-pages-blog-jsx-bd5143cca8b26303669b.js",
+      "component---src-pages-blog-jsx-bd5143cca8b26303669b.js.map"
     ],
     "path---download": [
       "path---download-586c7e095e534a3909ec.js",
@@ -151,8 +159,8 @@
       "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-8d08266cbbcab5baa9ba.js",
-      "component---src-templates-post-jsx-8d08266cbbcab5baa9ba.js.map"
+      "component---src-templates-post-jsx-cb1edd0148bd57f09dd9.js",
+      "component---src-templates-post-jsx-cb1edd0148bd57f09dd9.js.map"
     ],
     "component---src-pages-index-jsx": [
       "component---src-pages-index-jsx-1d305f9248660b0330f5.js",
@@ -175,9 +183,9 @@
       "path---docs-authoring-publishing-1eb90c9b9005f675dbaa.js.map"
     ],
     "app": [
-      "app-8c1714728c649156551a.js",
+      "app-81454107ef194a29f3dd.js",
       "build-js-styles.css",
-      "app-8c1714728c649156551a.js.map",
+      "app-81454107ef194a29f3dd.js.map",
       "build-js-styles.css.map"
     ],
     "path---docs-authoring-writing-lenses": [
