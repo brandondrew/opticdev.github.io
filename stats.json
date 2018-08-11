@@ -37,8 +37,8 @@
       "path---docs-authoring-knowledge-packages-b2f7aa581fa6d7b5327d.js.map"
     ],
     "path---blog": [
-      "path---blog-36d4418cd81bcdf8c2f4.js",
-      "path---blog-36d4418cd81bcdf8c2f4.js.map"
+      "path---blog-9c017005cfdf3e8fe434.js",
+      "path---blog-9c017005cfdf3e8fe434.js.map"
     ],
     "path---": [
       "path----6611940bd40871b680a6.js",
@@ -57,12 +57,12 @@
       "path---blog-optic-installer-1243ab4839e991c4388c.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-a1c333e351ee21b88be0.js",
-      "component---src-layouts-index-jsx-a1c333e351ee21b88be0.js.map"
+      "component---src-layouts-index-jsx-7a4017099845f4526de5.js",
+      "component---src-layouts-index-jsx-7a4017099845f4526de5.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-789f363de516239d5cb9.js",
-      "path---categories-tech-789f363de516239d5cb9.js.map"
+      "path---categories-tech-a28b11fa1109d841bb9a.js",
+      "path---categories-tech-a28b11fa1109d841bb9a.js.map"
     ],
     "path---blog-better-transformations": [
       "path---blog-better-transformations-6292d2cb6fae5d5bf46d.js",
@@ -101,8 +101,8 @@
       "component---src-templates-category-jsx-e95a2ab43b2b926045e0.js.map"
     ],
     "path---index": [
-      "path---index-328765a1c015986de7fc.js",
-      "path---index-328765a1c015986de7fc.js.map"
+      "path---index-353994677e1c01889a0e.js",
+      "path---index-353994677e1c01889a0e.js.map"
     ],
     "path---skills": [
       "path---skills-586c7e095e534a3909ec.js",
@@ -117,8 +117,8 @@
       "path---blog-whats-next-for-optic-51555a400016a05ee252.js.map"
     ],
     "component---src-pages-download-jsx": [
-      "component---src-pages-download-jsx-9245594ed7468e079644.js",
-      "component---src-pages-download-jsx-9245594ed7468e079644.js.map"
+      "component---src-pages-download-jsx-b182d1b7373465969d08.js",
+      "component---src-pages-download-jsx-b182d1b7373465969d08.js.map"
     ],
     "path---docs-what-is-optic-technical-overview": [
       "path---docs-what-is-optic-technical-overview-b798db329fa1e9312362.js",
@@ -129,9 +129,9 @@
       "path---docs-using-sync-fecae89545eb5aaaf45f.js.map"
     ],
     "commons": [
-      "commons-148022f705a2a5419ebb.js",
+      "commons-2d8a7b951ed80e8a23eb.js",
       "build-js-styles.css",
-      "commons-148022f705a2a5419ebb.js.map",
+      "commons-2d8a7b951ed80e8a23eb.js.map",
       "build-js-styles.css.map"
     ],
     "path---docs-using-search": [
@@ -159,12 +159,12 @@
       "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-cb1edd0148bd57f09dd9.js",
-      "component---src-templates-post-jsx-cb1edd0148bd57f09dd9.js.map"
+      "component---src-templates-post-jsx-4e11bcc95864f64ba3df.js",
+      "component---src-templates-post-jsx-4e11bcc95864f64ba3df.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-1d305f9248660b0330f5.js",
-      "component---src-pages-index-jsx-1d305f9248660b0330f5.js.map"
+      "component---src-pages-index-jsx-836f00e7a94730fbe399.js",
+      "component---src-pages-index-jsx-836f00e7a94730fbe399.js.map"
     ],
     "path---blog-starting-the-public-beta": [
       "path---blog-starting-the-public-beta-6d019af4214f395cfa13.js",
@@ -183,14 +183,18 @@
       "path---docs-authoring-publishing-1eb90c9b9005f675dbaa.js.map"
     ],
     "app": [
-      "app-81454107ef194a29f3dd.js",
+      "app-ddf3b56a1886b770d4e8.js",
       "build-js-styles.css",
-      "app-81454107ef194a29f3dd.js.map",
+      "app-ddf3b56a1886b770d4e8.js.map",
       "build-js-styles.css.map"
     ],
     "path---docs-authoring-writing-lenses": [
       "path---docs-authoring-writing-lenses-fcf26839e76eccb7a0f9.js",
       "path---docs-authoring-writing-lenses-fcf26839e76eccb7a0f9.js.map"
+    ],
+    "path---blog-scriptable-interface-and-multi-project-sync": [
+      "path---blog-scriptable-interface-and-multi-project-sync-00c7ab5a94cdf56c4efc.js",
+      "path---blog-scriptable-interface-and-multi-project-sync-00c7ab5a94cdf56c4efc.js.map"
     ],
     "path---blog-opm-auto-updating": [
       "path---blog-opm-auto-updating-9b9d484c99a96296d9c8.js",
