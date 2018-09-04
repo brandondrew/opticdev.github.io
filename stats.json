@@ -37,8 +37,8 @@
       "path---docs-authoring-knowledge-packages-b2f7aa581fa6d7b5327d.js.map"
     ],
     "path---blog": [
-      "path---blog-9c017005cfdf3e8fe434.js",
-      "path---blog-9c017005cfdf3e8fe434.js.map"
+      "path---blog-9ef77fe65197caaddd88.js",
+      "path---blog-9ef77fe65197caaddd88.js.map"
     ],
     "path---": [
       "path----6611940bd40871b680a6.js",
@@ -61,8 +61,8 @@
       "component---src-layouts-index-jsx-7a4017099845f4526de5.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-a28b11fa1109d841bb9a.js",
-      "path---categories-tech-a28b11fa1109d841bb9a.js.map"
+      "path---categories-tech-2084ff376d0f7aff5756.js",
+      "path---categories-tech-2084ff376d0f7aff5756.js.map"
     ],
     "path---blog-better-transformations": [
       "path---blog-better-transformations-6292d2cb6fae5d5bf46d.js",
@@ -101,8 +101,8 @@
       "component---src-templates-category-jsx-e95a2ab43b2b926045e0.js.map"
     ],
     "path---index": [
-      "path---index-353994677e1c01889a0e.js",
-      "path---index-353994677e1c01889a0e.js.map"
+      "path---index-e3d3f8ef29404b5217cd.js",
+      "path---index-e3d3f8ef29404b5217cd.js.map"
     ],
     "path---skills": [
       "path---skills-586c7e095e534a3909ec.js",
@@ -183,9 +183,9 @@
       "path---docs-authoring-publishing-1eb90c9b9005f675dbaa.js.map"
     ],
     "app": [
-      "app-ddf3b56a1886b770d4e8.js",
+      "app-dd5533b8260550dc1122.js",
       "build-js-styles.css",
-      "app-ddf3b56a1886b770d4e8.js.map",
+      "app-dd5533b8260550dc1122.js.map",
       "build-js-styles.css.map"
     ],
     "path---docs-authoring-writing-lenses": [
@@ -203,6 +203,10 @@
     "path---docs-authoring-defining-schemas": [
       "path---docs-authoring-defining-schemas-db2a1f986af369ef424e.js",
       "path---docs-authoring-defining-schemas-db2a1f986af369ef424e.js.map"
+    ],
+    "path---blog-skills-sdk": [
+      "path---blog-skills-sdk-084f51677af260a2c834.js",
+      "path---blog-skills-sdk-084f51677af260a2c834.js.map"
     ],
     "path---docs-using-properties": [
       "path---docs-using-properties-6aee624552ed1b2bf90b.js",
