@@ -5,20 +5,12 @@
       "path---blog-starting-sync-b349c850da6f096b7a12.js.map"
     ],
     "path---docs-authoring-adding-optic-support-for-new-id-es": [
-      "path---docs-authoring-adding-optic-support-for-new-id-es-12c847c4d2c87a1edada.js",
-      "path---docs-authoring-adding-optic-support-for-new-id-es-12c847c4d2c87a1edada.js.map"
+      "path---docs-authoring-adding-optic-support-for-new-id-es-ae318fdb93e57110edb0.js",
+      "path---docs-authoring-adding-optic-support-for-new-id-es-ae318fdb93e57110edb0.js.map"
     ],
     "path---docs-using-get-started": [
-      "path---docs-using-get-started-4847329204366b5d4bad.js",
-      "path---docs-using-get-started-4847329204366b5d4bad.js.map"
-    ],
-    "path---docs-authoring-defining-transformations": [
-      "path---docs-authoring-defining-transformations-a587b92ee0f3ac7ae9c7.js",
-      "path---docs-authoring-defining-transformations-a587b92ee0f3ac7ae9c7.js.map"
-    ],
-    "path---docs-authoring-writing-skills": [
-      "path---docs-authoring-writing-skills-426fb571ac69973a0840.js",
-      "path---docs-authoring-writing-skills-426fb571ac69973a0840.js.map"
+      "path---docs-using-get-started-138396019c7f542de69d.js",
+      "path---docs-using-get-started-138396019c7f542de69d.js.map"
     ],
     "path---blog-next-project": [
       "path---blog-next-project-328f8e07cc31f83ba457.js",
@@ -32,13 +24,13 @@
       "component---src-pages-skills-jsx-c06259d944084c6221e1.js",
       "component---src-pages-skills-jsx-c06259d944084c6221e1.js.map"
     ],
-    "path---docs-authoring-knowledge-packages": [
-      "path---docs-authoring-knowledge-packages-b2f7aa581fa6d7b5327d.js",
-      "path---docs-authoring-knowledge-packages-b2f7aa581fa6d7b5327d.js.map"
+    "path---docs-about-another-code-generator": [
+      "path---docs-about-another-code-generator-f86422344464469c3f39.js",
+      "path---docs-about-another-code-generator-f86422344464469c3f39.js.map"
     ],
     "path---blog": [
-      "path---blog-9ef77fe65197caaddd88.js",
-      "path---blog-9ef77fe65197caaddd88.js.map"
+      "path---blog-7c6fb03dd222caa84545.js",
+      "path---blog-7c6fb03dd222caa84545.js.map"
     ],
     "path---": [
       "path----6611940bd40871b680a6.js",
@@ -55,6 +47,10 @@
     "path---blog-optic-installer": [
       "path---blog-optic-installer-1243ab4839e991c4388c.js",
       "path---blog-optic-installer-1243ab4839e991c4388c.js.map"
+    ],
+    "path---docs-about-why-optic": [
+      "path---docs-about-why-optic-eda6123ad7d7f52fd3c7.js",
+      "path---docs-about-why-optic-eda6123ad7d7f52fd3c7.js.map"
     ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-7a4017099845f4526de5.js",
@@ -73,24 +69,20 @@
       "path---blog-first-release-open-source-beta-plans-38e5441a923645086094.js.map"
     ],
     "path---skills-generate-express-crud-routes-from-a-mongoose-model": [
-      "path---skills-generate-express-crud-routes-from-a-mongoose-model-2c4349186dbf4f869551.js",
-      "path---skills-generate-express-crud-routes-from-a-mongoose-model-2c4349186dbf4f869551.js.map"
+      "path---skills-generate-express-crud-routes-from-a-mongoose-model-3ef1eec0c22f02474426.js",
+      "path---skills-generate-express-crud-routes-from-a-mongoose-model-3ef1eec0c22f02474426.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
-    ],
-    "path---docs-using-transform": [
-      "path---docs-using-transform-818637d956cde2eeecc9.js",
-      "path---docs-using-transform-818637d956cde2eeecc9.js.map"
     ],
     "component---src-templates-lesson-jsx": [
       "component---src-templates-lesson-jsx-772e29a295b5ea77ee8f.js",
       "component---src-templates-lesson-jsx-772e29a295b5ea77ee8f.js.map"
     ],
     "path---docs-authoring-extending-optic": [
-      "path---docs-authoring-extending-optic-e0059ed911fc9618c852.js",
-      "path---docs-authoring-extending-optic-e0059ed911fc9618c852.js.map"
+      "path---docs-authoring-extending-optic-29cdf341fabb66f639f4.js",
+      "path---docs-authoring-extending-optic-29cdf341fabb66f639f4.js.map"
     ],
     "path---blog-1-0-launched": [
       "path---blog-1-0-launched-400c3bb829baac5368de.js",
@@ -101,42 +93,42 @@
       "component---src-templates-category-jsx-e95a2ab43b2b926045e0.js.map"
     ],
     "path---index": [
-      "path---index-e3d3f8ef29404b5217cd.js",
-      "path---index-e3d3f8ef29404b5217cd.js.map"
+      "path---index-6c3f23bb03912c844da0.js",
+      "path---index-6c3f23bb03912c844da0.js.map"
     ],
     "path---skills": [
       "path---skills-586c7e095e534a3909ec.js",
       "path---skills-586c7e095e534a3909ec.js.map"
-    ],
-    "path---docs-what-is-optic-what-is-optic": [
-      "path---docs-what-is-optic-what-is-optic-e2988f7122a790c209a7.js",
-      "path---docs-what-is-optic-what-is-optic-e2988f7122a790c209a7.js.map"
     ],
     "path---blog-whats-next-for-optic": [
       "path---blog-whats-next-for-optic-51555a400016a05ee252.js",
       "path---blog-whats-next-for-optic-51555a400016a05ee252.js.map"
     ],
     "component---src-pages-download-jsx": [
-      "component---src-pages-download-jsx-b182d1b7373465969d08.js",
-      "component---src-pages-download-jsx-b182d1b7373465969d08.js.map"
+      "component---src-pages-download-jsx-560c62ea25764964cb51.js",
+      "component---src-pages-download-jsx-560c62ea25764964cb51.js.map"
     ],
-    "path---docs-what-is-optic-technical-overview": [
-      "path---docs-what-is-optic-technical-overview-b798db329fa1e9312362.js",
-      "path---docs-what-is-optic-technical-overview-b798db329fa1e9312362.js.map"
+    "path---docs-about-technical-overview": [
+      "path---docs-about-technical-overview-ba8b798e09057a6cac2d.js",
+      "path---docs-about-technical-overview-ba8b798e09057a6cac2d.js.map"
     ],
     "path---docs-using-sync": [
-      "path---docs-using-sync-fecae89545eb5aaaf45f.js",
-      "path---docs-using-sync-fecae89545eb5aaaf45f.js.map"
+      "path---docs-using-sync-75d37983aa2627142cc2.js",
+      "path---docs-using-sync-75d37983aa2627142cc2.js.map"
     ],
     "commons": [
-      "commons-2d8a7b951ed80e8a23eb.js",
+      "commons-a2102892feac76f8cd93.js",
       "build-js-styles.css",
-      "commons-2d8a7b951ed80e8a23eb.js.map",
+      "commons-a2102892feac76f8cd93.js.map",
       "build-js-styles.css.map"
     ],
     "path---docs-using-search": [
-      "path---docs-using-search-1a517494e5ef1264c61b.js",
-      "path---docs-using-search-1a517494e5ef1264c61b.js.map"
+      "path---docs-using-search-306ddf48cfb12f8baca5.js",
+      "path---docs-using-search-306ddf48cfb12f8baca5.js.map"
+    ],
+    "path---docs-authoring-relationships": [
+      "path---docs-authoring-relationships-b0068624f9ed51aa34de.js",
+      "path---docs-authoring-relationships-b0068624f9ed51aa34de.js.map"
     ],
     "component---src-pages-teams-jsx": [
       "component---src-pages-teams-jsx-9f58abc2dc28efb0560f.js",
@@ -149,6 +141,10 @@
     "path---download": [
       "path---download-586c7e095e534a3909ec.js",
       "path---download-586c7e095e534a3909ec.js.map"
+    ],
+    "path---docs-using-transforming-code-with-relationships": [
+      "path---docs-using-transforming-code-with-relationships-420d1fa2b04a99e0f1f3.js",
+      "path---docs-using-transforming-code-with-relationships-420d1fa2b04a99e0f1f3.js.map"
     ],
     "path---blog-finished-sync": [
       "path---blog-finished-sync-27ef9c790b173310689d.js",
@@ -166,6 +162,10 @@
       "component---src-pages-index-jsx-836f00e7a94730fbe399.js",
       "component---src-pages-index-jsx-836f00e7a94730fbe399.js.map"
     ],
+    "path---docs-authoring-abstractions": [
+      "path---docs-authoring-abstractions-2cb0a4d28b684b9cbcf5.js",
+      "path---docs-authoring-abstractions-2cb0a4d28b684b9cbcf5.js.map"
+    ],
     "path---blog-starting-the-public-beta": [
       "path---blog-starting-the-public-beta-6d019af4214f395cfa13.js",
       "path---blog-starting-the-public-beta-6d019af4214f395cfa13.js.map"
@@ -175,22 +175,18 @@
       "path---blog-opm-live-7be9d64b7562fa3afedc.js.map"
     ],
     "path---skills-generate-request-js-calls-for-every-route-in-an-express-backend": [
-      "path---skills-generate-request-js-calls-for-every-route-in-an-express-backend-37a4e92610a509e2869c.js",
-      "path---skills-generate-request-js-calls-for-every-route-in-an-express-backend-37a4e92610a509e2869c.js.map"
+      "path---skills-generate-request-js-calls-for-every-route-in-an-express-backend-950f324e41dbeaa0db61.js",
+      "path---skills-generate-request-js-calls-for-every-route-in-an-express-backend-950f324e41dbeaa0db61.js.map"
     ],
     "path---docs-authoring-publishing": [
-      "path---docs-authoring-publishing-1eb90c9b9005f675dbaa.js",
-      "path---docs-authoring-publishing-1eb90c9b9005f675dbaa.js.map"
+      "path---docs-authoring-publishing-8defb13e2b46e526c0eb.js",
+      "path---docs-authoring-publishing-8defb13e2b46e526c0eb.js.map"
     ],
     "app": [
-      "app-dd5533b8260550dc1122.js",
+      "app-5a36b2b332795f507fb0.js",
       "build-js-styles.css",
-      "app-dd5533b8260550dc1122.js.map",
+      "app-5a36b2b332795f507fb0.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---docs-authoring-writing-lenses": [
-      "path---docs-authoring-writing-lenses-fcf26839e76eccb7a0f9.js",
-      "path---docs-authoring-writing-lenses-fcf26839e76eccb7a0f9.js.map"
     ],
     "path---blog-scriptable-interface-and-multi-project-sync": [
       "path---blog-scriptable-interface-and-multi-project-sync-00c7ab5a94cdf56c4efc.js",
@@ -200,25 +196,25 @@
       "path---blog-opm-auto-updating-9b9d484c99a96296d9c8.js",
       "path---blog-opm-auto-updating-9b9d484c99a96296d9c8.js.map"
     ],
-    "path---docs-authoring-defining-schemas": [
-      "path---docs-authoring-defining-schemas-db2a1f986af369ef424e.js",
-      "path---docs-authoring-defining-schemas-db2a1f986af369ef424e.js.map"
+    "path---docs-authoring-what-are-optic-skills": [
+      "path---docs-authoring-what-are-optic-skills-8833cd4cd255764a35d3.js",
+      "path---docs-authoring-what-are-optic-skills-8833cd4cd255764a35d3.js.map"
+    ],
+    "path---docs-authoring-generators": [
+      "path---docs-authoring-generators-5d1d1087817442fbee64.js",
+      "path---docs-authoring-generators-5d1d1087817442fbee64.js.map"
     ],
     "path---blog-skills-sdk": [
       "path---blog-skills-sdk-084f51677af260a2c834.js",
       "path---blog-skills-sdk-084f51677af260a2c834.js.map"
     ],
     "path---docs-using-properties": [
-      "path---docs-using-properties-6aee624552ed1b2bf90b.js",
-      "path---docs-using-properties-6aee624552ed1b2bf90b.js.map"
-    ],
-    "path---docs-what-is-optic-another-code-generator": [
-      "path---docs-what-is-optic-another-code-generator-3e41eacafaf04af9aa2c.js",
-      "path---docs-what-is-optic-another-code-generator-3e41eacafaf04af9aa2c.js.map"
+      "path---docs-using-properties-1dcd4013736fc351d3db.js",
+      "path---docs-using-properties-1dcd4013736fc351d3db.js.map"
     ],
     "path---docs-using-workflow": [
-      "path---docs-using-workflow-69e6bced74a61b3776a9.js",
-      "path---docs-using-workflow-69e6bced74a61b3776a9.js.map"
+      "path---docs-using-workflow-179f8a216ce87faff028.js",
+      "path---docs-using-workflow-179f8a216ce87faff028.js.map"
     ]
   }
 }
