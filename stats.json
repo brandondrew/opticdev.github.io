@@ -29,8 +29,8 @@
       "path---docs-about-another-code-generator-f86422344464469c3f39.js.map"
     ],
     "path---blog": [
-      "path---blog-7c6fb03dd222caa84545.js",
-      "path---blog-7c6fb03dd222caa84545.js.map"
+      "path---blog-60384e559e9a4d3eba17.js",
+      "path---blog-60384e559e9a4d3eba17.js.map"
     ],
     "path---": [
       "path----6611940bd40871b680a6.js",
@@ -93,8 +93,8 @@
       "component---src-templates-category-jsx-e95a2ab43b2b926045e0.js.map"
     ],
     "path---index": [
-      "path---index-6c3f23bb03912c844da0.js",
-      "path---index-6c3f23bb03912c844da0.js.map"
+      "path---index-5102db1de6dec4cf2dc0.js",
+      "path---index-5102db1de6dec4cf2dc0.js.map"
     ],
     "path---skills": [
       "path---skills-586c7e095e534a3909ec.js",
@@ -183,9 +183,9 @@
       "path---docs-authoring-publishing-8defb13e2b46e526c0eb.js.map"
     ],
     "app": [
-      "app-5a36b2b332795f507fb0.js",
+      "app-97da983620473125d543.js",
       "build-js-styles.css",
-      "app-5a36b2b332795f507fb0.js.map",
+      "app-97da983620473125d543.js.map",
       "build-js-styles.css.map"
     ],
     "path---blog-scriptable-interface-and-multi-project-sync": [
@@ -197,12 +197,12 @@
       "path---blog-opm-auto-updating-9b9d484c99a96296d9c8.js.map"
     ],
     "path---docs-authoring-what-are-optic-skills": [
-      "path---docs-authoring-what-are-optic-skills-8833cd4cd255764a35d3.js",
-      "path---docs-authoring-what-are-optic-skills-8833cd4cd255764a35d3.js.map"
+      "path---docs-authoring-what-are-optic-skills-1298ccc993ddb24c9f39.js",
+      "path---docs-authoring-what-are-optic-skills-1298ccc993ddb24c9f39.js.map"
     ],
     "path---docs-authoring-generators": [
-      "path---docs-authoring-generators-5d1d1087817442fbee64.js",
-      "path---docs-authoring-generators-5d1d1087817442fbee64.js.map"
+      "path---docs-authoring-generators-ecc25798aeb9b13a242b.js",
+      "path---docs-authoring-generators-ecc25798aeb9b13a242b.js.map"
     ],
     "path---blog-skills-sdk": [
       "path---blog-skills-sdk-084f51677af260a2c834.js",

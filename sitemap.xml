@@ -22,8 +22,6 @@
 <url> <loc>https://useoptic.com/docs/using/properties</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/docs/using/sync</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/docs/using/workflow</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://useoptic.com/docs/authoring/what-are-optic-skills</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://useoptic.com/docs/authoring/generators</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/docs/authoring/abstractions</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/docs/authoring/publishing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/docs/authoring/relationships</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -33,6 +31,8 @@
 <url> <loc>https://useoptic.com/docs/about/technical-overview</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/docs/about/why-optic</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/docs/about/another-code-generator</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://useoptic.com/docs/authoring/what-are-optic-skills</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://useoptic.com/docs/authoring/generators</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/categories/tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://useoptic.com/download/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
